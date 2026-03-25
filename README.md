@@ -41,7 +41,7 @@ Every topic is studied, executed, analyzed, and recorded with intent.
 
 ---
 
-##  Reflection & Learning Evolution
+## Reflection & Learning Evolution
 
 ### - 1.7 [Mistakes Done and Learnings Made](./Mistakes%20done%20and%20learnings%20made.pdf)
 
@@ -52,82 +52,163 @@ This document highlights:
 
 ---
 
-#  Core Technical Domains Covered
-
-##  Image Engineering
-- Layer architecture
-- Copy-on-write mechanism
-- Build cache invalidation
-- Tag mutability vs digest immutability
-- Multi-stage builds
-
-##  Networking
-- Default vs user-defined bridge networks
-- Docker embedded DNS
-- Port publishing internals
-- Host ↔ Container communication
-- Container ↔ Container communication
-
-##  Storage
-- Named volumes
-- Bind mounts
-- Mount masking behavior
-- Persistent data lifecycle
-- Separation of image, container layer, and volume
-
-##  Registry & Distribution
-- Docker Hub vs GHCR
-- Registry namespaces
-- Token-based authentication
-- Versioned image publishing
-- Semantic versioning strategy
+# 🚀 Unit 2: Orchestration with Docker Compose
 
 ---
 
-#  Final Armageddon Deployment
+## Introduction
+
+With a solid understanding of individual containers, the next step is orchestration — managing multiple interconnected services as a single system.
+
+Docker Compose introduces a declarative approach to defining and running multi-container applications.
+
+This unit focuses on:
+
+- Eliminating manual container linking  
+- Defining entire systems in a single configuration file  
+- Understanding how Docker internally manages multi-service environments  
+- Bridging the gap between containerization and orchestration systems like Kubernetes  
+
+---
+
+# Repository Learning Modules (Unit 2)
+
+## Docker Compose Fundamentals & Practice
+
+### - 2.1 [Complete Docker Compose Practice](./completeDockerComposePractice.md)
+
+---
+
+# Core Technical Domains Covered (Compose)
+
+## Multi-Container Architecture
+- Service abstraction  
+- Container dependency management  
+- Application-level structuring  
+
+## Networking
+- Default Compose network  
+- Embedded DNS-based service discovery  
+- Container ↔ Container communication  
+- Host ↔ Service exposure  
+
+## Storage
+- Named volumes in Compose  
+- Data persistence across services  
+- Volume lifecycle independence  
+
+## Configuration Management
+- Environment variables  
+- YAML-based infrastructure definition  
+- Build vs Image strategies  
+
+---
+
+# Internal Understanding Developed
+
+- How Compose translates YAML into container runtime instructions  
+- How Docker automatically provisions networks for services  
+- How DNS resolution replaces manual linking  
+- How volumes decouple storage from containers  
+- How multi-service systems behave during startup and shutdown  
+
+---
+
+# Practical Systems Built
+
+- Node.js + MongoDB multi-container setup  
+- Service communication via internal DNS  
+- Persistent database using volumes  
+- Port exposure and request routing  
+
+---
+
+# Compose in the Bigger Picture
+
+Docker Compose acts as a bridge between:
+
+- Single-container execution → Distributed systems  
+- Manual setup → Declarative infrastructure  
+- Local development → Production-ready architecture  
+
+---
+
+# Core Technical Domains Covered
+
+## Image Engineering
+- Layer architecture  
+- Copy-on-write mechanism  
+- Build cache invalidation  
+- Tag mutability vs digest immutability  
+- Multi-stage builds  
+
+## Networking
+- Default vs user-defined bridge networks  
+- Docker embedded DNS  
+- Port publishing internals  
+- Host ↔ Container communication  
+- Container ↔ Container communication  
+
+## Storage
+- Named volumes  
+- Bind mounts  
+- Mount masking behavior  
+- Persistent data lifecycle  
+- Separation of image, container layer, and volume  
+
+## Registry & Distribution
+- Docker Hub vs GHCR  
+- Registry namespaces  
+- Token-based authentication  
+- Versioned image publishing  
+- Semantic versioning strategy  
+
+---
+
+# Final Armageddon Deployment
 
 A full production-style integration combining:
 
-- Custom Dockerfile
-- ENV configuration
-- VOLUME declaration
-- EXPOSE instruction
-- Semantic tagging (1.0.0, latest)
-- Publishing to GHCR
-- Persistent storage
-- Versioned deployment flow
+- Custom Dockerfile  
+- ENV configuration  
+- VOLUME declaration  
+- EXPOSE instruction  
+- Semantic tagging (1.0.0, latest)  
+- Publishing to GHCR  
+- Persistent storage  
+- Versioned deployment flow  
 
 Demonstrates:
-- Image immutability
-- Volume persistence across rebuilds
-- Registry boundary control
-- Deployment reproducibility
+- Image immutability  
+- Volume persistence across rebuilds  
+- Registry boundary control  
+- Deployment reproducibility  
 
 ---
 
-#  Tools & Environment
+# Tools & Environment
 
-- Docker Engine
-- Alpine & Ubuntu images
-- MySQL container deployments
-- Git & GitHub
-- GitHub Container Registry (GHCR)
-- Windows + Git Bash workflow
+- Docker Engine  
+- Alpine & Ubuntu images  
+- MySQL container deployments  
+- Git & GitHub  
+- GitHub Container Registry (GHCR)  
+- Windows + Git Bash workflow  
 
 ---
 
-#  Philosophy
+# Philosophy
 
 This repository is not about memorizing commands.
 
 It is about understanding:
 
-- What happens inside the kernel
-- How namespaces isolate processes
-- How overlay filesystems manage layers
-- How registries store image manifests
-- Why volumes outlive containers
-- How version tags affect deployment stability
+- What happens inside the kernel  
+- How namespaces isolate processes  
+- How overlay filesystems manage layers  
+- How registries store image manifests  
+- Why volumes outlive containers  
+- How version tags affect deployment stability  
 
 Understanding Docker deeply is not about running containers.
 
@@ -135,19 +216,19 @@ It is about understanding what truly happens when you do.
 
 ---
 
-#  Long-Term Direction
+# Long-Term Direction
 
 This foundation directly supports:
 
-- CI/CD automation
-- Microservices architecture
-- Image optimization
-- Secure software supply chains
-- Kubernetes orchestration
+- CI/CD automation  
+- Microservices architecture  
+- Image optimization  
+- Secure software supply chains  
+- Kubernetes orchestration  
 
 ---
 
-##  Maintained by
+## Maintained by
 **Sreevishnu07**
 
 A disciplined journey toward mastering systems, infrastructure, and production-grade software engineering.
