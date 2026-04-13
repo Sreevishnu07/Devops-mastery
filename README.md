@@ -17,46 +17,32 @@ The goal is to understand:
 
 This project follows a disciplined learning loop:
 
-> **Concept → Practical Implementation → Internal Breakdown → Documentation**
+**Concept → Practical Implementation → Internal Breakdown → Documentation**
 
 Every topic is studied, executed, analyzed, and recorded with intent.
 
 ---
 
-# Repository Learning Modules
+## Repository Learning Modules
 
-## Foundations
+### Foundations
+- 1.1 [Basics of Docker](./basicsdocker.pdf)
+- 1.2 [Continuation on My Progress on Docker](./Continuation%20on%20my%20progress%20on%20docker.pdf)
+- 1.3 [Docker Intermediates](./Docker%20intermediates.pdf)
 
-### - 1.1  [Basics of Docker](./basicsdocker.pdf)
-### - 1.2 [Continuation on My Progress on Docker](./Continuation%20on%20my%20progress%20on%20docker.pdf)
-### - 1.3 [Docker Intermediates](./Docker%20intermediates.pdf)
+### Advanced Practice & Deep Exploration
+- 1.4 [Docker Practice and Advanced Work – Part 1](./Docker%20Practice%20and%20Advanced%20work-part%201.pdf)
+- 1.5 [Advanced Docker and Complete Practice – Part 2](./Advanced%20Docker%20and%20complete%20practice%20Part-2.pdf)
+- 1.6 [Advanced Docker and Final Practice](./Advanced%20Docker%20and%20final%20practice.pdf)
 
----
-
-## Advanced Practice & Deep Exploration
-
-### - 1.4 [Docker Practice and Advanced Work – Part 1](./Docker%20Practice%20and%20Advanced%20work-part%201.pdf)
-### - 1.5 [Advanced Docker and Complete Practice – Part 2](./Advanced%20Docker%20and%20complete%20practice%20Part-2.pdf)
-### - 1.6 [Advanced Docker and Final Practice](./Advanced%20Docker%20and%20final%20practice.pdf)
-
----
-
-## Reflection & Learning Evolution
-
-### - 1.7 [Mistakes Done and Learnings Made](./Mistakes%20done%20and%20learnings%20made.pdf)
-
-This document highlights:
-- Conceptual misunderstandings corrected
-- Internal behavior clarifications
-- Architectural refinements in understanding
+### Reflection & Learning Evolution
+- 1.7 [Mistakes Done and Learnings Made](./Mistakes%20done%20and%20learnings%20made.pdf)
 
 ---
 
-# Unit 2: Orchestration with Docker Compose
+## Unit 2: Orchestration with Docker Compose
 
----
-
-## Introduction
+### Introduction
 
 With a solid understanding of individual containers, the next step is orchestration — managing multiple interconnected services as a single system.
 
@@ -71,40 +57,38 @@ This unit focuses on:
 
 ---
 
-# Repository Learning Modules (Unit 2)
+### Repository Learning Modules (Unit 2)
 
-## Docker Compose Fundamentals & Practice
-
-### - 2.1 [Complete Docker Compose Practice](./completeDockerComposePractice.pdf)
+- 2.1 [Complete Docker Compose Practice](./completeDockerComposePractice.pdf)
 
 ---
 
-# Core Technical Domains Covered (Compose)
+### Core Technical Domains Covered (Compose)
 
-## Multi-Container Architecture
+#### Multi-Container Architecture
 - Service abstraction  
 - Container dependency management  
 - Application-level structuring  
 
-## Networking
+#### Networking
 - Default Compose network  
 - Embedded DNS-based service discovery  
 - Container ↔ Container communication  
 - Host ↔ Service exposure  
 
-## Storage
+#### Storage
 - Named volumes in Compose  
 - Data persistence across services  
 - Volume lifecycle independence  
 
-## Configuration Management
+#### Configuration Management
 - Environment variables  
 - YAML-based infrastructure definition  
 - Build vs Image strategies  
 
 ---
 
-# Internal Understanding Developed
+### Internal Understanding Developed
 
 - How Compose translates YAML into container runtime instructions  
 - How Docker automatically provisions networks for services  
@@ -114,7 +98,7 @@ This unit focuses on:
 
 ---
 
-# Practical Systems Built
+### Practical Systems Built
 
 - Node.js + MongoDB multi-container setup  
 - Service communication via internal DNS  
@@ -123,7 +107,7 @@ This unit focuses on:
 
 ---
 
-# Compose in the Bigger Picture
+### Compose in the Bigger Picture
 
 Docker Compose acts as a bridge between:
 
@@ -133,11 +117,9 @@ Docker Compose acts as a bridge between:
 
 ---
 
-# Unit 3: Build Systems with Maven
+## Unit 3: Build Systems with Maven
 
----
-
-## Introduction
+### Introduction
 
 After mastering containerization and orchestration, the next critical layer is build automation and dependency management.
 
@@ -148,49 +130,45 @@ Apache Maven plays a key role in:
 - Automating builds and packaging  
 - Integrating seamlessly with Docker-based workflows  
 
-This unit focuses on understanding Maven not just as a tool, but as a build lifecycle system.
+---
+
+### Repository Learning Modules (Unit 3)
+
+- 3.1 [Complete Maven Mastery](./Complete%20Maven%20Mastery.pdf)
 
 ---
 
-# Repository Learning Modules (Unit 3)
+### Core Technical Domains Covered (Maven)
 
-## Maven Fundamentals & Mastery
-
-### - 3.1 [Complete Maven Mastery](./Complete%20Maven%20Mastery.pdf)
-
----
-
-# Core Technical Domains Covered (Maven)
-
-## Project Structure & Lifecycle
+#### Project Structure & Lifecycle
 - Standard directory layout  
 - Build lifecycle phases (validate → compile → test → package → install → deploy)  
 - Maven conventions over configuration  
 
-## Dependency Management
+#### Dependency Management
 - Transitive dependencies  
 - Dependency scopes (compile, provided, runtime, test)  
 - Conflict resolution (nearest definition strategy)  
 
-## Build & Packaging
+#### Build & Packaging
 - JAR vs WAR packaging  
 - Plugins and goals  
 - Custom build configurations  
 
-## POM (Project Object Model)
+#### POM (Project Object Model)
 - XML structure and hierarchy  
 - GroupId, ArtifactId, Version  
 - Dependency declarations  
 - Plugin configuration  
 
-## Integration with Docker
+#### Integration with Docker
 - Building artifacts for containerization  
 - WAR deployment into Tomcat containers  
 - Clean separation of build and runtime environments  
 
 ---
 
-# Internal Understanding Developed
+### Internal Understanding Developed
 
 - How Maven resolves dependencies from repositories  
 - How lifecycle phases map to actual build steps  
@@ -200,7 +178,7 @@ This unit focuses on understanding Maven not just as a tool, but as a build life
 
 ---
 
-# Practical Systems Built
+### Practical Systems Built
 
 - Java Web Application (WAR packaging)  
 - Deployment on Tomcat using Docker  
@@ -209,7 +187,7 @@ This unit focuses on understanding Maven not just as a tool, but as a build life
 
 ---
 
-# Maven in the Bigger Picture
+### Maven in the Bigger Picture
 
 Maven acts as a bridge between:
 
@@ -219,30 +197,117 @@ Maven acts as a bridge between:
 
 ---
 
-# Core Technical Domains Covered
+## Unit 4: CI/CD Pipelines (Automation & Deployment)
 
-## Image Engineering
+### Introduction
+
+After mastering containerization, orchestration, and build systems, the final layer is automation — CI/CD.
+
+CI/CD (Continuous Integration & Continuous Deployment) enables:
+
+- Automated building, testing, and deployment  
+- Elimination of manual errors  
+- Faster and consistent delivery pipelines  
+- Production-grade DevOps workflows  
+
+---
+
+### Repository Learning Modules (Unit 4)
+
+- 4.1 [Complete CI/CD Mastery](./ci-cd-pipeline.pdf)  
+- 4.2 CI/CD Pipeline Implementation Tasks (End-to-End Execution)
+
+---
+
+### Core Technical Domains Covered (CI/CD)
+
+#### Continuous Integration (CI)
+- Automated build triggers on code push  
+- Maven-based build automation  
+- Dependency resolution in pipelines  
+- Artifact generation (JAR/WAR)  
+
+#### Continuous Deployment (CD)
+- Automated Docker image creation  
+- Image tagging & versioning  
+- Push to container registry (GHCR/Docker Hub)  
+- Deployment-ready artifacts  
+
+#### Pipeline Architecture
+- Workflow definition (GitHub Actions YAML)  
+- Job → Step execution model  
+- Event-based triggers (push, pull_request)  
+- Environment isolation (runners)  
+
+#### Docker + CI/CD Integration
+- Build Docker images inside pipelines  
+- Multi-stage builds for optimization  
+- Registry authentication (tokens)  
+- Image publishing and version control  
+
+#### Automation & Reliability
+- Eliminating manual build steps  
+- Reproducible deployments  
+- Version-controlled infrastructure  
+- Failure handling in pipelines  
+
+---
+
+### Internal Understanding Developed
+
+- How CI/CD pipelines execute step-by-step on remote runners  
+- How GitHub Actions converts YAML into executable workflows  
+- How build → test → package → dockerize → deploy flows work  
+- How artifacts move across stages  
+- How authentication enables secure registry access  
+- How pipelines ensure consistency across environments  
+
+---
+
+### Practical Systems Built
+
+- Maven-based automated build pipeline  
+- Docker image creation inside CI pipeline  
+- Image push to GitHub Container Registry (GHCR)  
+- Fully automated CI → CD workflow  
+- Version-controlled deployment process  
+
+---
+
+### CI/CD in the Bigger Picture
+
+CI/CD acts as the bridge between:
+
+- Code → Automated Build → Deployment  
+- Manual execution → Fully automated pipelines  
+- Development → Production systems  
+
+---
+
+## Core Technical Domains Covered
+
+### Image Engineering
 - Layer architecture  
 - Copy-on-write mechanism  
 - Build cache invalidation  
 - Tag mutability vs digest immutability  
 - Multi-stage builds  
 
-## Networking
+### Networking
 - Default vs user-defined bridge networks  
 - Docker embedded DNS  
 - Port publishing internals  
 - Host ↔ Container communication  
 - Container ↔ Container communication  
 
-## Storage
+### Storage
 - Named volumes  
 - Bind mounts  
 - Mount masking behavior  
 - Persistent data lifecycle  
 - Separation of image, container layer, and volume  
 
-## Registry & Distribution
+### Registry & Distribution
 - Docker Hub vs GHCR  
 - Registry namespaces  
 - Token-based authentication  
@@ -251,7 +316,7 @@ Maven acts as a bridge between:
 
 ---
 
-# Final Armageddon Deployment
+## Final Armageddon Deployment
 
 A full production-style integration combining:
 
@@ -265,6 +330,7 @@ A full production-style integration combining:
 - Versioned deployment flow  
 
 Demonstrates:
+
 - Image immutability  
 - Volume persistence across rebuilds  
 - Registry boundary control  
@@ -272,7 +338,7 @@ Demonstrates:
 
 ---
 
-# Tools & Environment
+## Tools & Environment
 
 - Docker Engine  
 - Alpine & Ubuntu images  
@@ -283,7 +349,7 @@ Demonstrates:
 
 ---
 
-# Philosophy
+## Philosophy
 
 This repository is not about memorizing commands.
 
@@ -302,7 +368,7 @@ It is about understanding what truly happens when you do.
 
 ---
 
-# Long-Term Direction
+## Long-Term Direction
 
 This foundation directly supports:
 
@@ -315,6 +381,7 @@ This foundation directly supports:
 ---
 
 ## Maintained by
+
 **Sreevishnu07**
 
 A disciplined journey toward mastering systems, infrastructure, and production-grade software engineering.
