@@ -43,7 +43,7 @@ Every topic is studied, executed, analyzed, and recorded with intent.
 
 **1.8** [Complete Practice of Docker with many scenarios (Part 1)](Complete%20Practice%20of%20Docker%20with%20many%20scenarios%20part1.pdf)
 
-**1.9** [Docker Scenario Based Questions (Part 2)](Docker_Scenario_Based_questions_part-2.pdf)
+**1.9** [Docker Scenario Based Questions (Part 2)](Docker%20Scenario%20Based%20questions%20part-2.pdf)
 ---
 
 ### Core Technical Domains Covered
