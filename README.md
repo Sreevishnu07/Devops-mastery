@@ -505,7 +505,7 @@ Includes a complete **CI/CD pipeline using GitHub Actions** with automated servi
 
 Focus: reverse proxy routing, container networking, environment-based configuration, and real-world CI/CD workflow.
 
-## WordPress Docker Deployment
+### WordPress Docker Deployment
 
 - [WordPress Deployment with Nginx Reverse Proxy and MySQL](./WordPress%20Deployment%20with%20Nginx%20Reverse%20Proxy%20and%20MySQL.pdf)
 
