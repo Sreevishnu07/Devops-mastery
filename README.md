@@ -505,6 +505,16 @@ Includes a complete **CI/CD pipeline using GitHub Actions** with automated servi
 
 Focus: reverse proxy routing, container networking, environment-based configuration, and real-world CI/CD workflow.
 
+## WordPress Docker Deployment
+
+- [WordPress Deployment with Nginx Reverse Proxy and MySQL](./WordPress%20Deployment%20with%20Nginx%20Reverse%20Proxy%20and%20MySQL.pdf)
+
+A hands-on implementation of a **containerized WordPress application** using Docker Compose, consisting of **Nginx (reverse proxy)**, **WordPress (PHP-FPM backend)**, and **MySQL (database)**.
+
+Includes practical setup of **service orchestration**, **reverse proxy configuration**, and **database connectivity**, along with persistent storage using Docker volumes.
+
+Focus: reverse proxy routing, multi-container architecture, environment-based configuration, Docker networking, and real-world debugging of database connectivity issues.
+
 ## Final Armageddon Deployment
 
 A full production-style integration combining:
