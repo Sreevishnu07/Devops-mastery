@@ -23,7 +23,7 @@ Every topic is studied, executed, analyzed, and recorded with intent.
 
 ---
 
-## Unit 1: Docker Foundations & Advanced Practice
+## Unit 1: Docker Foundations and Advanced Practice
 
 ### Repository Learning Modules
 
@@ -515,7 +515,7 @@ Includes practical setup of **service orchestration**, **reverse proxy configura
 
 Focus: reverse proxy routing, multi-container architecture, environment-based configuration, Docker networking, and real-world debugging of database connectivity issues.
 
-## Multi-Node Docker Swarm Cluster
+### Multi-Node Docker Swarm Cluster
 
 - [Multi-Node Docker Swarm Cluster with Distributed Service Orchestration](./Multi-Node%20Docker%20Swarm%20Cluster%20with%20Distributed%20Service%20Orchestration.pdf)
 
