@@ -515,6 +515,16 @@ Includes practical setup of **service orchestration**, **reverse proxy configura
 
 Focus: reverse proxy routing, multi-container architecture, environment-based configuration, Docker networking, and real-world debugging of database connectivity issues.
 
+## Multi-Node Docker Swarm Cluster
+
+- [Multi-Node Docker Swarm Cluster with Distributed Service Orchestration](./Multi-Node%20Docker%20Swarm%20Cluster%20with%20Distributed%20Service%20Orchestration.pdf)
+
+A hands-on implementation of a **distributed container orchestration system** using **Docker Swarm**, consisting of a **Manager node** and multiple **Worker nodes** simulated via Docker-in-Docker (dind).
+
+Includes **service creation with replicas**, **dynamic scheduling**, **self-healing**, and **load balancing** using the ingress routing mesh.
+
+Focus: cluster setup, service orchestration, task scheduling, routing mesh networking, and fault-tolerant distributed systems.
+
 ## Final Armageddon Deployment
 
 A full production-style integration combining:
