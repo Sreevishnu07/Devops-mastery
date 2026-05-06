@@ -525,7 +525,7 @@ Includes **service creation with replicas**, **dynamic scheduling**, **self-heal
 
 Focus: cluster setup, service orchestration, task scheduling, routing mesh networking, and fault-tolerant distributed systems.
 
-## Special Practicals – Jenkins CI/CD
+### Special Practicals – Jenkins CI/CD
 
 - [Design and Implementation of a CI Pipeline using Jenkins, Maven, and Docker for Java Applications (done via both Pipeline script and Jenkinsfile)](Special%20practicals-Jenkins%20part%201.pdf)
 
@@ -533,7 +533,7 @@ A hands-on implementation of real-world CI/CD workflows using Jenkins, covering 
 
 Includes automated build, testing, Docker-based containerization, webhook-triggered execution, and email notifications for failure handling.
 
-### Special Practicals Covered:
+#### Special Practicals Covered:
 **1.** Jenkins-Based Python CI Pipeline with Webhook Automation and Email Notifications  
 **2.** Design and Implementation of a CI Pipeline using Jenkins, Maven, and Docker for Java Applications  
 
