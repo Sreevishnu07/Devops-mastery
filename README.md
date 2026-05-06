@@ -533,9 +533,9 @@ A hands-on implementation of real-world CI/CD workflows using Jenkins, covering 
 
 Includes automated build, testing, Docker-based containerization, webhook-triggered execution, and email notifications for failure handling.
 
-Special Practicals Covered:
-1. Jenkins-Based Python CI Pipeline with Webhook Automation and Email Notifications  
-2. Design and Implementation of a CI Pipeline using Jenkins, Maven, and Docker for Java Applications  
+### Special Practicals Covered:
+**1.** Jenkins-Based Python CI Pipeline with Webhook Automation and Email Notifications  
+**2.** Design and Implementation of a CI Pipeline using Jenkins, Maven, and Docker for Java Applications  
 
 Focus: CI automation, pipeline design, containerized builds, GitHub integration, and production-style DevOps workflows.
 
