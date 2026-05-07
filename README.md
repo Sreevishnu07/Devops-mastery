@@ -539,6 +539,16 @@ Includes automated build, testing, Docker-based containerization, webhook-trigge
 
 Focus: CI automation, pipeline design, containerized builds, GitHub integration, and production-style DevOps workflows.
 
+### Special Practicals – Jenkins Distributed CI/CD
+
+- [Jenkins Controller–Agent Architecture on AWS EC2](#)
+
+A hands-on implementation of a distributed Jenkins CI/CD architecture using a local Jenkins Controller and an AWS EC2 Ubuntu instance configured as a remote Agent node via SSH communication.
+
+Includes secure SSH-based agent connectivity, remote build execution, Jenkins node configuration, environment variable management, Linux permission handling, and distributed job scheduling using node labels.
+
+Focus: controller–agent architecture, Jenkins remoting, SSH authentication, distributed build execution, temporary directory management, Linux permissions, resource monitoring, and CI/CD fundamentals.
+
 ## Final Armageddon Deployment
 
 A full production-style integration combining:
