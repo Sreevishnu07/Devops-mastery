@@ -559,6 +559,16 @@ Includes Docker-based frontend build optimization, static asset serving, automat
 
 Focus: React Vite production builds, Nginx frontend hosting, Docker image optimization, containerized frontend deployment, and CI workflow automation.
 
+### Dockerized Java Web Application Deployment
+
+- [Dockerized Java Web Application Deployment Using Maven WAR and Apache-Tomcat](./Dockerized%20Java%20Web%20Application%20Deployment%20Using%20Maven%20WAR%20and%20Apache-Tomcat.pdf)
+
+A hands-on implementation of a containerized Java web application using Maven, JSP, Apache Tomcat, and Docker, demonstrating the complete workflow from WAR generation to Tomcat-based deployment.
+
+Includes practical setup of Maven project structure, WAR packaging, JSP rendering, Tomcat auto-deployment, Docker image creation, and containerized web hosting with port mapping.
+
+Focus: Java web architecture, JSP and Servlets fundamentals, Apache Tomcat deployment lifecycle, Docker-based application containerization, WAR deployment mechanics, and real-world Java DevOps workflow understanding.
+
 ## Final Armageddon Deployment
 
 A full production-style integration combining:
