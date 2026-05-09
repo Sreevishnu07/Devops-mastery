@@ -549,6 +549,16 @@ Includes secure SSH-based agent connectivity, remote build execution, Jenkins no
 
 Focus: controller–agent architecture, Jenkins remoting, SSH authentication, distributed build execution, temporary directory management, Linux permissions, resource monitoring, and CI/CD fundamentals.
 
+### Special Practicals - Dockerized React Vite application
+
+- [Multi-Stage Dockerized React Vite Deployment using Nginx and CI Pipeline](./Multi-Stage%20Dockerized%20React%20Vite%20Deployment%20using%20Nginx%20and%20CI%20Pipeline.pdf)
+
+A hands-on implementation of a containerized React Vite frontend application using a multi-stage Docker build and Nginx production server.
+
+Includes Docker-based frontend build optimization, static asset serving, automated CI pipeline using GitHub Actions, and Docker Hub image publishing.
+
+Focus: React Vite production builds, Nginx frontend hosting, Docker image optimization, containerized frontend deployment, and CI workflow automation.
+
 ## Final Armageddon Deployment
 
 A full production-style integration combining:
