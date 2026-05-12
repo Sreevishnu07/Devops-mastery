@@ -569,6 +569,16 @@ Includes practical setup of Maven project structure, WAR packaging, JSP renderin
 
 Focus: Java web architecture, JSP and Servlets fundamentals, Apache Tomcat deployment lifecycle, Docker-based application containerization, WAR deployment mechanics, and real-world Java DevOps workflow understanding.
 
+## Multi-Container Spring Boot + PostgreSQL Deployment
+
+- [Multi-Container Orchestration of Spring Boot and PostgreSQL Using Docker Compose](Springboot-postgres-devops.pdf)
+
+A hands-on implementation of a **containerized backend infrastructure** using Docker Compose, consisting of **Spring Boot (backend application)** and **PostgreSQL (database)**.
+
+Includes practical setup of **Docker image building**, **service orchestration**, **healthchecks**, **persistent storage using Docker volumes**, and **environment-based configuration**.
+
+Focus: multi-container architecture, Docker networking, containerized Java deployment, PostgreSQL integration, health monitoring, restart policies, and real-world backend infrastructure orchestration.
+
 ## Final Armageddon Deployment
 
 A full production-style integration combining:
