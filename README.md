@@ -579,6 +579,16 @@ Includes practical setup of **Docker image building**, **service orchestration**
 
 Focus: multi-container architecture, Docker networking, containerized Java deployment, PostgreSQL integration, health monitoring, restart policies, and real-world backend infrastructure orchestration.
 
+# Multi-Container Microservices Scaling Using Docker Compose and Nginx
+
+- [Scaling Microservices for High Traffic Using Docker Compose and Nginx](Scaling%20Microservices%20for%20High%20Traffic%20Using%20Docker%20Compose%20and%20Nginx.pdf)
+
+A hands-on implementation of a scalable containerized microservices infrastructure using Docker Compose, consisting of multiple Flask backend containers and an Nginx reverse proxy/load balancer.
+
+Includes practical setup of Docker image building, horizontal container scaling, reverse proxy configuration, load balancing, Docker networking, healthchecks, restart policies, and service orchestration using Docker Compose.
+
+Focus: microservices scalability, Docker bridge networking, Nginx load balancing, container orchestration, health monitoring, reverse proxy architecture, stateless backend deployment, and real-world high-traffic backend infrastructure design.
+
 ## Final Armageddon Deployment
 
 A full production-style integration combining:
