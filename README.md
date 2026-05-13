@@ -579,7 +579,7 @@ Includes practical setup of **Docker image building**, **service orchestration**
 
 Focus: multi-container architecture, Docker networking, containerized Java deployment, PostgreSQL integration, health monitoring, restart policies, and real-world backend infrastructure orchestration.
 
-# Multi-Container Microservices Scaling Using Docker Compose and Nginx
+### Multi-Container Microservices Scaling Using Docker Compose and Nginx
 
 - [Scaling Microservices for High Traffic Using Docker Compose and Nginx](Scaling%20Microservices%20for%20High%20Traffic%20Using%20Docker%20Compose%20and%20Nginx.pdf)
 
