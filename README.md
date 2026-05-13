@@ -541,7 +541,7 @@ Focus: CI automation, pipeline design, containerized builds, GitHub integration,
 
 ### Special Practicals – Jenkins Distributed CI/CD-2
 
-- [Jenkins Controller-Agent Architecture on AWS EC2](./Special%20Practicals%20Jenkins-2%20.pdf)
+- [Jenkins Controller-Agent Architecture on AWS EC2](./Special%20Practicals%20Jenkins-2.pdf)
 
 A hands-on implementation of a distributed Jenkins CI/CD architecture using a local Jenkins Controller and an AWS EC2 Ubuntu instance configured as a remote Agent node via SSH communication.
 
