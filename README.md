@@ -231,7 +231,9 @@ Apache Maven plays a key role in:
 
 **3.1** [Complete Maven Mastery](./Complete%20Maven%20Mastery.pdf)
 
-**3.2** [Maven Plugin and Packaging Practice PDF](./Maven%20Final%20Armageddon-for%20pom%20practice.pdf)
+**3.2** [Maven Plugin and Packaging Practice](./Maven%20Final%20Armageddon-for%20pom%20practice.pdf)
+
+**3.3** [Maven Final Practice](./Maven%20final%20armageddon.pdf)
 
 ---
 
