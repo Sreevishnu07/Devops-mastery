@@ -593,6 +593,16 @@ Includes practical setup of Docker image building, horizontal container scaling,
 
 Focus: microservices scalability, Docker bridge networking, Nginx load balancing, container orchestration, health monitoring, reverse proxy architecture, stateless backend deployment, and real-world high-traffic backend infrastructure design.
 
+### Microservices API Gateway using Docker and Nginx
+
+- [Implementation of a Microservices API Gateway using Docker Compose](./Implementation%20of%20a%20Microservices%20API%20Gateway%20using%20Docker%20Compose.pdf)
+
+A hands-on implementation of a **containerized microservices infrastructure** using Docker Compose, consisting of an **Nginx API Gateway** and multiple backend microservices.
+
+Includes practical setup of **reverse proxy architecture**, **container orchestration**, **Docker networking**, **service discovery**, **path-based routing**, and **multi-container communication** using Docker Compose.
+
+Focus: API Gateway pattern, Nginx reverse proxy, Docker Compose orchestration, microservices communication, internal container networking, restart policies, and real-world DevOps-based backend infrastructure deployment.
+
 ## Final Armageddon Deployment
 
 A full production-style integration combining:
