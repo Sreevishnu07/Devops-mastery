@@ -603,6 +603,16 @@ Includes practical setup of **reverse proxy architecture**, **container orchestr
 
 Focus: API Gateway pattern, Nginx reverse proxy, Docker Compose orchestration, microservices communication, internal container networking, restart policies, and real-world DevOps-based backend infrastructure deployment.
 
+### Docker Compose Based Multi-Container Web Application with Redis Persistence
+
+- [Docker Compose Based Multi-Container Web Application with Redis Persistence](./Docker%20Compose%20Based%20Multi-Container%20Web%20Application%20with%20Redis%20Persistence.pdf)
+
+A hands-on implementation of a containerized web infrastructure using Docker Compose, consisting of an Nginx frontend container, a Node.js backend service, and a Redis persistence layer.
+
+Includes practical setup of container orchestration, Docker networking, Redis data persistence, inter-container communication, environment variable configuration, restart policies, and persistent storage management using Docker volumes.
+
+Focus: Docker Compose orchestration, Redis persistence with AOF, multi-container communication, internal container networking, frontend-backend integration, persistent Docker volumes, restart policies, and real-world DevOps-oriented infrastructure deployment.
+
 ## Final Armageddon Deployment
 
 A full production-style integration combining:
