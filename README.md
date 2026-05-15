@@ -25,7 +25,7 @@ Every topic is studied, executed, analyzed, and recorded with intent.
 
 ## A Very Special Note
 
-A special thanks to **Dr. Harpreet Kaur** for being the sole source of inspiration behind this journey.
+A special thanks to **Dr. Harpreet Kaur** mam for being the sole source of inspiration behind this journey.
 
 What started as learning Docker gradually turned into more than 3 months of deep exploration, consistent practice, and countless hours of building and experimenting. From beginner-level concepts to advanced DevOps workflows, this repository represents a structured hands-on journey through real implementation and internal understanding.
 
