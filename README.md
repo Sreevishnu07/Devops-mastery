@@ -20,6 +20,7 @@ This project follows a disciplined learning loop:
 **Concept → Practical Implementation → Internal Breakdown → Documentation**
 
 Every topic is studied, executed, analyzed, and recorded with intent.
+
 ---
 
 ## A very Special Note
@@ -43,7 +44,6 @@ This README is designed to provide the complete structure, navigation flow, and 
 
 The repository links for all the special projects and implementations will also be added soon.
 
----
 ---
 
 ## Unit 1: Docker Foundations and Advanced Practice
