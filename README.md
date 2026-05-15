@@ -23,7 +23,7 @@ Every topic is studied, executed, analyzed, and recorded with intent.
 
 ---
 
-## A very Special Note
+## A Very Special Note
 
 A special thanks to **Dr. Harpreet Kaur** for being the sole source of inspiration behind this journey.
 
