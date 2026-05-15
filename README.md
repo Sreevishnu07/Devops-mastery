@@ -127,6 +127,8 @@ Together, these tools bridge the gap between single-container execution and prod
 
 **2.2** [Docker Networking + Swarm Practicals](./Docker%20Networking%2BSwarm%20practicals.pdf)
 
+**2.3** [Ultimate Docker Compose Practice: Extensive Multi-Service Interaction Scenarios](./Docker%20Scenario%20Based%20Questions-3.pdf)
+
 ---
 
 ### Core Technical Domains Covered
