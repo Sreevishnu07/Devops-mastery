@@ -1,21 +1,19 @@
 # Mastering the Intricacies of DevOps
 
-A structured, hands-on journey into DevOps — focused on internal mechanics, operational clarity, and production-grade workflows.
+A structured, hands-on journey into Docker, CI/CD, and production-grade DevOps workflows.
 
----
+This repository documents practical implementations and internal understanding of:
 
-## Introduction
+- Docker & Dockerfiles
+- Docker Compose
+- Docker Swarm
+- Container Networking
+- CI/CD Pipelines
+- GitHub Actions
+- Jenkins
+- Maven Workflows
 
-This repository starts with documenting a deep exploration of Docker — not just at the command level, but at the architectural level.
-
-The goal is to understand:
-
-- How containers actually work under the hood
-- How image layers are constructed and reused
-- How networking and storage are implemented
-- How Docker integrates into real-world DevOps pipelines
-
-This project follows a disciplined learning loop:
+The focus is not just on using tools, but understanding how they operate internally and how they integrate into real-world deployment pipelines.
 
 **Concept → Practical Implementation → Internal Breakdown → Documentation**
 
@@ -40,9 +38,58 @@ This **INT-332 course** has genuinely been one of the most special and impactful
 
 This README is designed to provide the complete structure, navigation flow, and step-by-step organization of the repository so every section can be explored systematically.
 
-> **Make sure to check out the 12 Special Practicals section at the bottom of this README.**
+> **Make sure to check out the 12 Special Practicals documentation at the bottom of this README.**
 
-The repository links for all the special projects and implementations will also be added soon.
+# DevOps / CI-CD / Docker / Microservices Practical Repository Collection
+
+These 14 repositories are fully CI-CD enabled practical projects.  
+Each project teaches a new real-world DevOps, Docker, Jenkins, GitHub Actions, deployment, scaling, microservices, or infrastructure concept through hands-on implementation.
+
+---
+
+## Special Practical Repositories
+
+1. [Docker Compose Microservices Scaling](https://github.com/Sreevishnu07/docker-compose-microservices-scaling)
+
+2. [Spring Boot + PostgreSQL DevOps Stack](https://github.com/Sreevishnu07/springboot-postgres-devops-stack)
+
+3. [Docker WordPress + Nginx + MySQL](https://github.com/Sreevishnu07/docker-wordpress-nginx-mysql)
+
+4. [React + Nginx Docker Deployment](https://github.com/Sreevishnu07/react-nginx-docker-deployment)
+
+5. [Node + Mongo Microservices Docker](https://github.com/Sreevishnu07/node-mongo-microservices-docker)
+
+6. [Docker Compose Service Dependency Healthcheck](https://github.com/Sreevishnu07/docker-compose-service-dependency-healthcheck)
+
+7. [Microservices Docker CI-CD](https://github.com/Sreevishnu07/Microservices-Docker-CI-CD)
+
+8. [Microservices API Gateway](https://github.com/Sreevishnu07/microservices-api-gateway)
+
+9. [Fullstack CI-CD Pipeline](https://github.com/Sreevishnu07/fullstack-cicd-pipeline)
+
+10. [Flask GHCR Pipeline](https://github.com/Sreevishnu07/flask-ghcr-pipeline)
+
+11. [Maven CI Workflow](https://github.com/Sreevishnu07/maven-ci-workflow)
+
+12. [Jenkins Practice 2](https://github.com/Sreevishnu07/jenkins-practice2)
+
+13. [Jenkins Practice 3](https://github.com/Sreevishnu07/jenkins-practice3)
+
+14. [Jenkins Practice 4](https://github.com/Sreevishnu07/Jenkins-practice4)
+
+---
+
+# Special Highlight Project — XAI Threat Detection System
+
+A complete end-to-end Explainable AI threat detection project with:
+- CI/CD pipeline integration
+- EC2 cloud deployment
+- Dockerized infrastructure
+- Real-world deployment workflow
+- Explainable AI based threat analysis(Gradcam++,Scorecam,Integrated Gradients)
+- Production-style architecture(FastAPI,Streamlit and much more)
+
+🔗 [XAI Threat Detection](https://github.com/Sreevishnu07/XAI-Threat-Detection)
 
 ---
 
