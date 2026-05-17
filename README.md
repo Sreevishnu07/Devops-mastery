@@ -4,7 +4,7 @@ A structured, hands-on journey into Docker, CI/CD, and production-grade DevOps w
 
 This repository documents practical implementations and internal understanding of:
 
-- Docker & Dockerfiles
+- Docker and Dockerfiles
 - Docker Compose
 - Docker Swarm
 - Container Networking
@@ -30,7 +30,7 @@ What started as learning Docker gradually turned into more than 3 months of deep
 **This journey includes:**
 
 - A very large collection of practicals ranging from foundational to advanced concepts
-- 12 special practicals built with dedicated repositories
+- 14 special practicals built with dedicated repositories
 - CI/CD integration included across repositories wherever applicable
 - Architecture-level understanding alongside implementation
 
