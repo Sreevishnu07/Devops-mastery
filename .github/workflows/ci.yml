@@ -2,12 +2,16 @@ name: DevOps Mastery CI
 
 on:
   push:
+    branches: [main, master]
   pull_request:
+    branches: [main, master]
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
 
 jobs:
   lint-and-validate:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -15,10 +19,21 @@ jobs:
       - name: Markdown Lint
         uses: avto-dev/markdown-lint@v1
 
-      - name: Check broken links
-        uses: lycheeverse/lychee-action@v1
-        with:
-          args: --verbose --no-progress .
-
       - name: YAML Lint
         uses: ibiqlik/action-yamllint@v3
+
+      - name: Check broken links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress --timeout 20 --max-retries 3 .
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload link report on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-report
+          path: lychee/out.md
+          retention-days: 5
