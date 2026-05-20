@@ -707,14 +707,29 @@ Demonstrates:
 
 ---
 
-## Tools & Environment
+## Tools and Environment
 
 - Docker Engine
-- Alpine & Ubuntu images
-- MySQL container deployments
-- Git & GitHub
+- Dockerfiles
+- Docker Compose
+- Docker Swarm
+- Alpine, Ubuntu, and other lightweight base images
+- Multi-container application deployment and container networking
+- MySQL
+- PostgreSQL
+- MongoDB
+- Redis
+- Containerized database deployments
+- Git
+- GitHub
 - GitHub Container Registry (GHCR)
 - Windows + Git Bash workflow
+- Jenkins
+- Maven
+- GitHub Actions
+- Amazon EC2 deployments
+- CI/CD pipeline setup and automation
+- DevOps Mastery project implementation involving Dockerized applications, Swarm orchestration, automated builds, container registries, database integration, and cloud deployments
 
 ---
 
