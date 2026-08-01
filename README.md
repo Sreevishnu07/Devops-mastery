@@ -746,25 +746,21 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 ---
 
-### Repository Learning Modules
+## Repository Learning Modules
 
-### [Complete Puppet Mastery Part-1.pdf](./Complete%20Puppet%20Mastery%20Part-1.pdf)
+**1. Puppet Mastery**
 
-### 1.1 Puppet Installation and Development Environment
+- [Complete Puppet Mastery Part-1.pdf](Complete%20Puppet%20Mastery%20Part-1.pdf)
 
-### 1.2 Puppet Development in Isolation
-
-### 1.3 Advanced Puppet Configuration
-
-### 1.4 Managing Software Packages with Puppet
-
-### 1.5 Designing and Deploying Custom Puppet Modules
-
-### 1.6 Production-Style Puppet Modules
-
-### 1.7 Parameterized and Reusable Puppet Modules
-
-### 1.8 EPP Templates and Dynamic Configuration Generation
+**Topics Covered**
+- 1.1 Puppet Installation and Development Environment
+- 1.2 Puppet Development in Isolation
+- 1.3 Advanced Puppet Configuration
+- 1.4 Managing Software Packages with Puppet
+- 1.5 Designing and Deploying Custom Puppet Modules
+- 1.6 Production-Style Puppet Modules
+- 1.7 Parameterized and Reusable Puppet Modules
+- 1.8 EPP Templates and Dynamic Configuration Generation
 
 ---
 
@@ -874,23 +870,23 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 Puppet acts as the bridge between:
 
 ```
-Manual Server Administration
+    Manual Server Administration
                 ↓
-Infrastructure as Code
-
+    Infrastructure as Code
+                ↓
 Individual Server Configuration
                 ↓
 Enterprise Configuration Management
 
-Imperative Administration
+      Imperative Administration
                 ↓
 Declarative Desired State Management
-
-Static Configuration
+                ↓
+      Static Configuration
                 ↓
 Reusable Parameterized Infrastructure
-
-Manual Changes
+                ↓
+        Manual Changes
                 ↓
 Consistent Automated Infrastructure
 ```
