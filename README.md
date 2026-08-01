@@ -748,6 +748,8 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 ### Repository Learning Modules
 
+### [Complete Puppet Mastery Part-1.pdf](./Complete%20Puppet%20Mastery%20Part-1.pdf)
+
 ### 1.1 Puppet Installation and Development Environment
 
 ### 1.2 Puppet Development in Isolation
