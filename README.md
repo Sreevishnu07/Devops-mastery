@@ -1,4 +1,4 @@
-# Mastering the Intricacies of DevOps(Update: Many Advanced Practicals for Puppet,Ansible,Nagios,Terraform would be added)
+# Mastering the Intricacies of DevOps **Update: Many Advanced Practicals for Puppet,Ansible,Nagios,Terraform would be added** 
 
 A structured, hands-on journey into Docker, CI/CD, and production-grade DevOps workflows.
 
@@ -25,7 +25,7 @@ Every topic is studied, executed, analyzed, and recorded with intent.
 
 A special thanks to **Dr. Harpreet Kaur** mam for being the sole source of inspiration behind this journey.
 
-What started as learning Docker gradually turned into more than 3 months of deep exploration, consistent practice, and countless hours of building and experimenting. From beginner-level concepts to advanced DevOps workflows, this repository represents a structured hands-on journey through real implementation and internal understanding.And starting with a deep dive into Configuration Management and IaC,manifesting that this journey to be even more fruitful.
+What started as learning Docker gradually turned into more than 3 months of deep exploration, consistent practice, and countless hours of building and experimenting. From beginner-level concepts to advanced DevOps workflows, this repository represents a structured hands-on journey through real implementation and internal understanding.And **starting with a deep dive into Configuration Management and IaC**,manifesting that this journey to be even more fruitful.
 
 **This journey includes:**
 
@@ -35,7 +35,7 @@ What started as learning Docker gradually turned into more than 3 months of deep
 - Architecture-level understanding alongside implementation
 
 This **INT-332 course** has genuinely been one of the most special and impactful learning experiences throughout this process and my college life.
-
+Thereby **INT-333 course** and its documentation would be done in the days to come.
 This README is designed to provide the complete structure, navigation flow, and step-by-step organization of the repository so every section can be explored systematically.
 
 > **Make sure to check out the 12 Special Practicals documentation at the bottom of this README.**
