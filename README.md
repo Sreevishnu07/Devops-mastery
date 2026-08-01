@@ -734,9 +734,9 @@ Demonstrates:
 ---
 # Start of INT333
 
-# Unit 1: Puppet Configuration Management and Infrastructure Automation
+## Unit 1: Puppet Configuration Management and Infrastructure Automation
 
-## Introduction
+### Introduction
 
 After mastering containerization, orchestration, build automation, and CI/CD pipelines, the next critical layer is **Configuration Management**.
 
@@ -746,7 +746,7 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 ---
 
-## Repository Learning Modules
+### Repository Learning Modules
 
 ### 1.1 Puppet Installation and Development Environment
 
