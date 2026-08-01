@@ -732,7 +732,166 @@ Demonstrates:
 - DevOps Mastery project implementation involving Dockerized applications, Swarm orchestration, automated builds, container registries, database integration, and cloud deployments
 
 ---
+# Start of INT333
 
+# Unit 1: Puppet Configuration Management and Infrastructure Automation
+
+## Introduction
+
+After mastering containerization, orchestration, build automation, and CI/CD pipelines, the next critical layer is **Configuration Management**.
+
+Puppet enables infrastructure to be managed declaratively, allowing servers to be configured, monitored, and maintained consistently across development, testing, and production environments.
+
+This unit focuses not only on writing Puppet manifests but also on understanding how Puppet internally compiles catalogs, manages system state, structures reusable modules, and scales infrastructure automation.
+
+---
+
+## Repository Learning Modules
+
+### 1.1 Puppet Installation and Development Environment
+
+### 1.2 Puppet Development in Isolation
+
+### 1.3 Advanced Puppet Configuration
+
+### 1.4 Managing Software Packages with Puppet
+
+### 1.5 Designing and Deploying Custom Puppet Modules
+
+### 1.6 Production-Style Puppet Modules
+
+### 1.7 Parameterized and Reusable Puppet Modules
+
+### 1.8 EPP Templates and Dynamic Configuration Generation
+
+---
+
+## Core Technical Domains Covered
+
+### Puppet Fundamentals
+
+- Declarative Infrastructure as Code
+- Resources and Resource Types
+- Desired State Configuration
+- Idempotency
+- Puppet Manifests
+- Catalog Compilation
+- Puppet Language Fundamentals
+
+### Puppet Configuration
+
+- `puppet.conf`
+- Main, Agent and Master configuration sections
+- Environment management
+- Module path configuration
+- Configuration precedence
+- Puppet CLI utilities
+- Manifest validation and debugging
+
+### Package Management
+
+- Package resources
+- Package providers
+- APT provider abstraction
+- Package installation, removal and updates
+- Version management
+- Provider architecture
+
+### Module Development
+
+- Standard Puppet module structure
+- `init.pp`
+- Multiple manifest organization
+- Namespaces
+- Production-style module architecture
+- Separation of responsibilities
+
+### Parameterized Modules
+
+- Typed parameters
+- String, Integer and Boolean data types
+- Default parameter values
+- Class declarations
+- Parameter forwarding
+- Variable interpolation
+
+### EPP Templates
+
+- Embedded Puppet (EPP)
+- Dynamic configuration generation
+- Template rendering
+- Passing variables into templates
+- Separation of logic and configuration
+- Production configuration management
+
+### Service Management
+
+- Package-Service relationships
+- Service lifecycle management
+- Automatic startup configuration
+- Configuration enforcement
+- Idempotent service management
+
+---
+
+## Internal Understanding Developed
+
+- How Puppet compiles manifests into catalogs.
+- How resources are evaluated against the current system state.
+- How providers abstract operating-system-specific implementations.
+- How Puppet enforces idempotency through desired state reconciliation.
+- How Puppet discovers modules using `modulepath`.
+- How `include` automatically loads `manifests/init.pp`.
+- How namespaces organize enterprise-scale Puppet modules.
+- How parameterized classes enable reusable infrastructure code.
+- How parameters are forwarded between multiple classes.
+- How EPP templates generate dynamic configuration files.
+- Difference between static files and dynamically rendered templates.
+- Production practices followed by official Puppet Forge modules.
+- Difference between declarative configuration management and imperative system administration.
+
+---
+
+## Practical Systems Built
+
+- Puppet standalone development environment
+- Custom Puppet module from scratch
+- Production-style multi-class Puppet module
+- Automated package management
+- File and configuration management
+- Parameterized reusable modules
+- Dynamic configuration generation using EPP templates
+- Service management automation
+- Idempotent infrastructure validation
+- Enterprise-style module architecture
+
+---
+
+## Puppet in the Bigger Picture
+
+Puppet acts as the bridge between:
+
+```
+Manual Server Administration
+                ↓
+Infrastructure as Code
+
+Individual Server Configuration
+                ↓
+Enterprise Configuration Management
+
+Imperative Administration
+                ↓
+Declarative Desired State Management
+
+Static Configuration
+                ↓
+Reusable Parameterized Infrastructure
+
+Manual Changes
+                ↓
+Consistent Automated Infrastructure
+```
 ## Philosophy
 
 This repository is not about memorizing commands.
