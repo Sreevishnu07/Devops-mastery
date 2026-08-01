@@ -1,4 +1,4 @@
-# Mastering the Intricacies of DevOps
+# Mastering the Intricacies of DevOps(Update: Many Advanced Practicals for Puppet,Ansible,Nagios,Terraform would be added)
 
 A structured, hands-on journey into Docker, CI/CD, and production-grade DevOps workflows.
 
@@ -877,7 +877,7 @@ Puppet acts as the bridge between:
 Individual Server Configuration
                 ↓
 Enterprise Configuration Management
-
+                ↓ 
       Imperative Administration
                 ↓
 Declarative Desired State Management
