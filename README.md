@@ -25,7 +25,7 @@ Every topic is studied, executed, analyzed, and recorded with intent.
 
 A special thanks to **Dr. Harpreet Kaur** mam for being the sole source of inspiration behind this journey.
 
-What started as learning Docker gradually turned into more than 3 months of deep exploration, consistent practice, and countless hours of building and experimenting. From beginner-level concepts to advanced DevOps workflows, this repository represents a structured hands-on journey through real implementation and internal understanding.
+What started as learning Docker gradually turned into more than 3 months of deep exploration, consistent practice, and countless hours of building and experimenting. From beginner-level concepts to advanced DevOps workflows, this repository represents a structured hands-on journey through real implementation and internal understanding.And starting with a deep dive into Configuration Management and IaC,manifesting that this journey to be even more fruitful.
 
 **This journey includes:**
 
