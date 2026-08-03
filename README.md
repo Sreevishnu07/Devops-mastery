@@ -749,7 +749,7 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 ## Repository Learning Modules
 
-**1. Puppet Mastery**
+**1. Puppet Mastery Part-1**
 
 - [Complete Puppet Mastery Part-1.pdf](Complete%20Puppet%20Mastery%20Part-1.pdf)
 
@@ -762,6 +762,15 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 - 1.6 Production-Style Puppet Modules
 - 1.7 Parameterized and Reusable Puppet Modules
 - 1.8 EPP Templates and Dynamic Configuration Generation
+
+**2. Puppet Mastery Part-2**
+
+- [Complete Puppet Mastery Part 2.pdf](Complete%20Puppet%20Mastery%20Part%202.pdf)
+
+**Topics Covered**
+- 2.1 Monitoring and Managing Apache Web Server Using Puppet
+- 2.2 Deploying and Configuring a Secure Puppet Master-Agent Infrastructure
+- 2.3 Centralized Configuration Management Using Puppet Master Catalogs
 
 ---
 
