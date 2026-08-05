@@ -784,7 +784,7 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 4. **Puppet Mastery Part-4 (Standalone Flagship Practical-2)**
 
-- [Complete Puppet Mastery Part-4 (Standalone Flagship Practical-2).pdf](Complete%20Puppet%20Mastery%20Part-4%20(Standalone%20Flagship%20Practical-2).pdf)
+- [Complete Puppet Mastery Part-4 (Standalone Flagship Practical-2).pdf](./Complete%20Puppet%20Mastery%20Part-4%28Standalone%20Flagship%20practical-2%29.pdf)
 
 **Topics Covered**
 
