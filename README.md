@@ -782,6 +782,16 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 - 3.2 Dynamic Resource Management Using Facter and Structured Facts
 - 3.3 Multi-Node Configuration with Parameterized Modules and Resource Relationships
 
+4. **Puppet Mastery Part-4 (Standalone Flagship Practical-2)**
+
+- [Complete Puppet Mastery Part-4 (Standalone Flagship Practical-2).pdf](Complete%20Puppet%20Mastery%20Part-4%20(Standalone%20Flagship%20Practical-2).pdf)
+
+**Topics Covered**
+
+- 4.1 Enterprise Multi-Environment Configuration Management Using Puppet Production and Development Environments
+- 4.2 Environment Isolation, Catalog Compilation, and Environment-Specific Module Deployment
+- 4.3 Managing Multiple Puppet Agents with Independent Environments, Dynamic Templates, and Centralized Puppet Server
+
 ---
 
 ## Core Technical Domains Covered
