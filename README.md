@@ -772,6 +772,16 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 - 2.2 Deploying and Configuring a Secure Puppet Master-Agent Infrastructure
 - 2.3 Centralized Configuration Management Using Puppet Master Catalogs
 
+**3. Puppet Mastery Part-3 (Flagship Standalone Practical)**
+
+- [Complete Puppet Mastery Part-3 (Flagship Standalone Practical).pdf](Complete%20Puppet%20Mastery%20Part-3%20(Flagship%20Standalone%20Practical).pdf)
+
+**Topics Covered**
+
+- 3.1 Enterprise Dynamic Configuration Management Using Puppet Facts, EPP Templates, Parameterized Classes, and Centralized Modules
+- 3.2 Dynamic Resource Management Using Facter and Structured Facts
+- 3.3 Multi-Node Configuration with Parameterized Modules and Resource Relationships
+
 ---
 
 ## Core Technical Domains Covered
