@@ -1,5 +1,5 @@
 # Mastering the Intricacies of DevOps 
-**Update: Many Advanced Practicals for Puppet,Ansible,Nagios,Terraform would be added** 
+**Update: Many Advanced Practicals for Puppet,Ansible,Nagios,Terraform are being added,scroll through to find the additions** 
 
 A structured, hands-on journey into Docker, CI/CD, and production-grade DevOps workflows.
 
