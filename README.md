@@ -792,6 +792,18 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 - 4.2 Environment Isolation, Catalog Compilation, and Environment-Specific Module Deployment
 - 4.3 Managing Multiple Puppet Agents with Independent Environments, Dynamic Templates, and Centralized Puppet Server
 
+5. **Puppet Mastery Part-5 (Standalone Flagship Practical-3)**
+
+- [Complete Puppet Mastery Part-5 (Standalone Flagship Practical-3).pdf](./Complete%20Puppet%20Mastery%20Part-5%28Standalone%20Flagship%20Practical-3%29.pdf)
+
+**Topics Covered**
+
+- **5.1** Enterprise Data-Driven Configuration Management with Hiera, Automatic Parameter Lookup (APL), and Multi-Environment Puppet
+
+- **5.2** Hierarchical Data Management Using Node, Environment, and Common YAML Files with Automatic Parameter Lookup and Explicit Hiera Lookups
+
+- **5.3** Centralized Multi-Environment Puppet Deployments with Data-Driven Modules, Environment Isolation, EPP Templates, and Dynamic Package Management
+
 ---
 
 ## Core Technical Domains Covered
