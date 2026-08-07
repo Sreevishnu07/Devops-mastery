@@ -13,6 +13,7 @@ This repository documents practical implementations and internal understanding o
 - GitHub Actions
 - Jenkins
 - Maven Workflows
+- Puppet's Configuration Management
 
 The focus is not just on using tools, but understanding how they operate internally and how they integrate into real-world deployment pipelines.
 
