@@ -772,7 +772,7 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 - 2.2 Deploying and Configuring a Secure Puppet Master-Agent Infrastructure
 - 2.3 Centralized Configuration Management Using Puppet Master Catalogs
 
-**3. Puppet Mastery Part-3 (Flagship Standalone Practical)**
+**3. Puppet Mastery Part-3 (Flagship Standalone Practical-1)**
 
 - [Complete Puppet Mastery Part-3 (Flagship Standalone Practical).pdf](Complete%20Puppet%20Mastery%20Part-3%28Flagship%20standalone%20practical%29.pdf)
 
