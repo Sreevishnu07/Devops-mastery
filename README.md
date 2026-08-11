@@ -807,7 +807,7 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 6. **Puppet Mastery Part-6 (Practical 15) (Flagship Practical-4)**
 
-- [Puppet Mastery Part-6,Practical 15(Flagship Practical-4).pdf](Puppet%20Mastery%20Part-6%2CPractical%2015%28Flagship%20Practical-4%29.pdf)
+- [Puppet Mastery Part-6,Practical 15(Flagship Practical-4).pdf](<Puppet Mastery Part-6,Practical 15(Flagship Practical-4).pdf>)
 
 **Topics Covered**
 
