@@ -815,6 +815,15 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 - **6.2** Advanced Custom Puppet Functions with Typed Parameters, Default Values, Validation, Conditional Logic, Structured Return Types, and True Function Composition
 - **6.3** Production-Style Dynamic Configuration Using EPP Templates, OS-Aware Package and Service Management, Resource Relationships, Notifications, and End-to-End Catalog Deployment
 
+7. **Puppet Mastery Part-7 (Flagship Practical-5)**
+
+- [Puppet Mastery Part-7 (Flagship Practical-5).pdf](./Puppet%20Mastery%20Part-7%28Flagship%20practical-5%29.pdf)
+
+**Topics Covered**
+
+- **7.1** Enterprise Load Balancing Using HAProxy, Puppet-Managed Web Server Clusters, and Round-Robin Traffic Distribution
+- **7.2** High-Availability Load Balancing with Backend Health Checks, Automatic Failover, Recovery, and Puppet-Enforced Service State
+- **7.3** Data-Driven Horizontal Scaling Using Hiera, APL, Puppet Hashes, EPP Iteration, and Multi-Node HAProxy Backend Management
 ---
 
 ## Core Technical Domains Covered
