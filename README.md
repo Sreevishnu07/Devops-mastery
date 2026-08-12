@@ -824,6 +824,15 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 - **7.1** Enterprise Load Balancing Using HAProxy, Puppet-Managed Web Server Clusters, and Round-Robin Traffic Distribution
 - **7.2** High-Availability Load Balancing with Backend Health Checks, Automatic Failover, Recovery, and Puppet-Enforced Service State
 - **7.3** Data-Driven Horizontal Scaling Using Hiera, APL, Puppet Hashes, EPP Iteration, and Multi-Node HAProxy Backend Management
+
+8. **Puppet Mastery Part-8 (Practical 17) — Ruby Foundations for Puppet, Puppet DSL, and Custom Function Integration**
+
+**Topics Covered**
+
+- **8.1** Ruby Fundamentals for Puppet — Variables, Arrays, Hashes, Conditions, Methods, Blocks, and Iteration
+- **8.2** Ruby Methods vs Puppet Custom Functions, Typed Parameters, Return Values, and Function-Based Configuration Logic
+- **8.3** Understanding Puppet DSL, Ruby Influence, Catalog Compilation, and Integration of Custom Functions with Puppet Manifests
+
 ---
 
 ## Core Technical Domains Covered
