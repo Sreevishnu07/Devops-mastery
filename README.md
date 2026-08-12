@@ -827,6 +827,8 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 8. **Puppet Mastery Part-8 (Practical 17) — Ruby Foundations for Puppet, Puppet DSL, and Custom Function Integration**
 
+- [Puppet Mastery Part-8 (Ruby essentials).pdf](Puppet%20Mastery%20Part-8%20%28Ruby%20essentials%29.pdf)
+
 **Topics Covered**
 
 - **8.1** Ruby Fundamentals for Puppet — Variables, Arrays, Hashes, Conditions, Methods, Blocks, and Iteration
