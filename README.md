@@ -835,6 +835,14 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 - **8.2** Ruby Methods vs Puppet Custom Functions, Typed Parameters, Return Values, and Function-Based Configuration Logic
 - **8.3** Understanding Puppet DSL, Ruby Influence, Catalog Compilation, and Integration of Custom Functions with Puppet Manifests
 
+9. **Puppet Mastery Part-9 Extensive Practice-1: Production-Grade Puppet Infrastructure Orchestration: Dynamic Multi-Environment Configuration, Fact-Driven Automation & HAProxy Load Balancing**
+
+- [Production-Grade Puppet Infrastructure Orchestration: Dynamic Multi-Environment Configuration, Fact-Driven Automation & HAProxy Load Balancing](./Puppet%20Mastery%20Part-9.md)
+
+- **9.1** Dynamic Multi-Environment Puppet Configuration
+- **9.2** Fact-Driven Automation with Facter and Custom Facts
+- **9.3** HAProxy Load Balancing, Failover and extensive practice of modules,functions,hiera,epps.
+
 ---
 
 ## Core Technical Domains Covered
