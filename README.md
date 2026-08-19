@@ -755,23 +755,23 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 - [Complete Puppet Mastery Part-1.pdf](Complete%20Puppet%20Mastery%20Part-1.pdf)
 
 **Topics Covered**
-- 1.1 Puppet Installation and Development Environment
-- 1.2 Puppet Development in Isolation
-- 1.3 Advanced Puppet Configuration
-- 1.4 Managing Software Packages with Puppet
-- 1.5 Designing and Deploying Custom Puppet Modules
-- 1.6 Production-Style Puppet Modules
-- 1.7 Parameterized and Reusable Puppet Modules
-- 1.8 EPP Templates and Dynamic Configuration Generation
+- **1.1** Puppet Installation and Development Environment
+- **1.2** Puppet Development in Isolation
+- **1.3** Advanced Puppet Configuration
+- **1.4** Managing Software Packages with Puppet
+- **1.5** Designing and Deploying Custom Puppet Modules
+- **1.6** Production-Style Puppet Modules
+- **1.7** Parameterized and Reusable Puppet Modules
+- **1.8** EPP Templates and Dynamic Configuration Generation
 
 **2. Puppet Mastery Part-2**
 
 - [Complete Puppet Mastery Part 2.pdf](Complete%20Puppet%20Mastery%20Part%202.pdf)
 
 **Topics Covered**
-- 2.1 Monitoring and Managing Apache Web Server Using Puppet
-- 2.2 Deploying and Configuring a Secure Puppet Master-Agent Infrastructure
-- 2.3 Centralized Configuration Management Using Puppet Master Catalogs
+- **2.1** Monitoring and Managing Apache Web Server Using Puppet
+- **2.2** Deploying and Configuring a Secure Puppet Master-Agent Infrastructure
+- **2.3** Centralized Configuration Management Using Puppet Master Catalogs
 
 **3. Puppet Mastery Part-3 (Flagship Standalone Practical-1)**
 
@@ -779,9 +779,9 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 **Topics Covered**
 
-- 3.1 Enterprise Dynamic Configuration Management Using Puppet Facts, EPP Templates, Parameterized Classes, and Centralized Modules
-- 3.2 Dynamic Resource Management Using Facter and Structured Facts
-- 3.3 Multi-Node Configuration with Parameterized Modules and Resource Relationships
+- **3.1** Enterprise Dynamic Configuration Management Using Puppet Facts, EPP Templates, Parameterized Classes, and Centralized Modules
+- **3.2** Dynamic Resource Management Using Facter and Structured Facts
+- **3.3** Multi-Node Configuration with Parameterized Modules and Resource Relationships
 
 4. **Puppet Mastery Part-4 (Standalone Flagship Practical-2)**
 
@@ -789,9 +789,9 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 **Topics Covered**
 
-- 4.1 Enterprise Multi-Environment Configuration Management Using Puppet Production and Development Environments
-- 4.2 Environment Isolation, Catalog Compilation, and Environment-Specific Module Deployment
-- 4.3 Managing Multiple Puppet Agents with Independent Environments, Dynamic Templates, and Centralized Puppet Server
+- **4.1** Enterprise Multi-Environment Configuration Management Using Puppet Production and Development Environments
+- **4.2** Environment Isolation, Catalog Compilation, and Environment-Specific Module Deployment
+- **4.3** Managing Multiple Puppet Agents with Independent Environments, Dynamic Templates, and Centralized Puppet Server
 
 5. **Puppet Mastery Part-5 (Standalone Flagship Practical-3)**
 
