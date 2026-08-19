@@ -839,6 +839,8 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 - [Production-Grade Puppet Infrastructure Orchestration: Puppet-Mastery Part-9.pdf](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Puppet%20Mastery%20Part-9.pdf)
 
+**Topics Covered**
+
 - **9.1** Dynamic Multi-Environment Puppet Configuration
 - **9.2** Fact-Driven Automation with Facter and Custom Facts
 - **9.3** HAProxy Load Balancing, Failover and extensive practice of modules,functions,hiera,epps.
