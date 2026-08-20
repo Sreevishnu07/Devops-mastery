@@ -835,7 +835,7 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 - **8.2** Ruby Methods vs Puppet Custom Functions, Typed Parameters, Return Values, and Function-Based Configuration Logic
 - **8.3** Understanding Puppet DSL, Ruby Influence, Catalog Compilation, and Integration of Custom Functions with Puppet Manifests
 
-9. **Puppet Mastery Part-9 Extensive Practice-1: Production-Grade Puppet Infrastructure Orchestration: Dynamic Multi-Environment Configuration, Fact-Driven Automation & HAProxy Load Balancing**
+9. **Puppet Mastery Part-9 Extensive Practice-1: Production-Grade Puppet Infrastructure Orchestration: Dynamic Multi-Environment Configuration, Fact-Driven Automation and HAProxy Load Balancing**
 
 - [Production-Grade Puppet Infrastructure Orchestration: Puppet-Mastery Part-9.pdf](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Puppet%20Mastery%20Part-9.pdf)
 
@@ -844,6 +844,16 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 - **9.1** Dynamic Multi-Environment Puppet Configuration
 - **9.2** Fact-Driven Automation with Facter and Custom Facts
 - **9.3** HAProxy Load Balancing, Failover and extensive practice of modules,functions,hiera,epps.
+
+10. **Puppet Practical — Cross-Platform Apache Virtual Host and Website Deployment**
+
+- [Puppet Mastery Part 10](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Puppet%20Mastery%20Part-10%28Practical%20scenarios%20part-1%29.pdf)
+
+- **1. Cross-Platform Apache Management** — Use Puppet facts to install and manage Apache across Debian/Ubuntu and RHEL-based systems, including OS-specific package, service, and configuration paths.
+
+- **2. EPP-Based Apache VirtualHost & Website Deployment** — Use Hiera/APL to supply `server_name`, `document_root`, and `port`, generate the VirtualHost configuration with EPP, manage the website files, and enable the site appropriately.
+
+- **3.Production-Style Apache Configuration Management** — Manage Apache through modular classes (`install`, `config`, `service`), preserve the default VirtualHost, use Puppet-managed symlinks on Debian, enforce resource ordering, and verify actual HTTP traffic using the `Host` header.
 
 ---
 
