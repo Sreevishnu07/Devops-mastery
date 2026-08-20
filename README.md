@@ -847,7 +847,7 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 10. **Puppet Practical — Cross-Platform Apache Virtual Host and Website Deployment**
 
-- [Puppet Mastery Part 10](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Puppet%20Mastery%20Part-10%28Practical%20scenarios%20part-1%29.pdf)
+- [Puppet Practical — Cross-Platform Apache Virtual Host and Website Deployment](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Puppet%20Mastery%20Part-10%28Practical%20scenarios%20part-1%29.pdf)
 
 - **1. Cross-Platform Apache Management** — Use Puppet facts to install and manage Apache across Debian/Ubuntu and RHEL-based systems, including OS-specific package, service, and configuration paths.
 
