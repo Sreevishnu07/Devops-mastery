@@ -845,15 +845,15 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 - **9.2** Fact-Driven Automation with Facter and Custom Facts
 - **9.3** HAProxy Load Balancing, Failover and extensive practice of modules,functions,hiera,epps.
 
-10. **Puppet Practical — Cross-Platform Apache Virtual Host and Website Deployment**
+10. **Puppet Mastery Part-10: Practical Scenarios — Puppet Infrastructure Management:**
 
-- [Puppet Practical — Cross-Platform Apache Virtual Host and Website Deployment](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Puppet%20Mastery%20Part-10%28Practical%20scenarios%20part-1%29.pdf)
+- [Puppet Mastery Part-10 (Practical scenarios part-1).pdf](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Puppet%20Mastery%20Part-10%28Practical%20scenarios%20part-1%29.pdf)
 
-- **1. Cross-Platform Apache Management** — Use Puppet facts to install and manage Apache across Debian/Ubuntu and RHEL-based systems, including OS-specific package, service, and configuration paths.
+- **1. Nginx & Apache Webpage Deployment:** Production-oriented web-server management using Puppet, including package/service management, VirtualHost configuration, EPP templates, default-site handling, and Puppet-managed symlinks.
 
-- **2. EPP-Based Apache VirtualHost & Website Deployment** — Use Hiera/APL to supply `server_name`, `document_root`, and `port`, generate the VirtualHost configuration with EPP, manage the website files, and enable the site appropriately.
+- **2. Centralized User, Group, SSH Key & Sudo Management:** Data-driven Linux access management using Puppet modules, classes, Hiera/APL, SSH authorized keys, restricted sudo policies, EPP templates, resource relationships, and idempotency.
 
-- **3.Production-Style Apache Configuration Management** — Manage Apache through modular classes (`install`, `config`, `service`), preserve the default VirtualHost, use Puppet-managed symlinks on Debian, enforce resource ordering, and verify actual HTTP traffic using the `Host` header.
+- **3. Cross-Platform Apache Virtual Host & Website Deployment:** Cross-platform Apache management using Puppet facts, Hiera/APL, EPP-generated VirtualHosts, OS-specific configuration paths, document-root deployment, Debian site enabling, service management, and Host-header-based website verification.
 
 ---
 
