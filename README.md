@@ -849,11 +849,31 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 - [Puppet Mastery Part-10 (Practical scenarios part-1).pdf](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Puppet%20Mastery%20Part-10%28Practical%20scenarios%20part-1%29.pdf)
 
+**Topics Covered**
+
 - **10.1 Nginx & Apache Webpage Deployment:** Production-oriented web-server management using Puppet, including package/service management, VirtualHost configuration, EPP templates, default-site handling, and Puppet-managed symlinks.
 
 - **10.2 Centralized User, Group, SSH Key & Sudo Management:** Data-driven Linux access management using Puppet modules, classes, Hiera/APL, SSH authorized keys, restricted sudo policies, EPP templates, resource relationships, and idempotency.
 
 - **10.3 Cross-Platform Apache Virtual Host & Website Deployment:** Cross-platform Apache management using Puppet facts, Hiera/APL, EPP-generated VirtualHosts, OS-specific configuration paths, document-root deployment, Debian site enabling, service management, and Host-header-based website verification.
+
+11. **Puppet Mastery Part-11 — Advanced Puppet Configuration Management, Automation, DSL Programming, and Web Application Deployment**
+
+- [Puppet Mastery Part-11.pdf](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Puppet%20Mastery%20Part-11.pdf)
+
+**Topics Covered**
+
+- **11.1 PostgreSQL Server Configuration, EPP Drop-In Management & Idempotent Database Provisioning**  
+  Configured PostgreSQL through Puppet using package, service, file, `file_line`, EPP-based drop-in configuration, dependency management, and idempotent database creation.
+
+- **11.2 Production-Grade Scheduled System Maintenance & Cron Job Automation**  
+  Built a Puppet-managed maintenance workflow using scripts, file resources, cron scheduling, permissions, and Hiera-driven configuration to automate recurring system maintenance.
+
+- **11.3 Puppet DSL Programming, Iteration and Functional Data Manipulation**  
+  Practiced core Puppet DSL constructs including variables, typed parameters, conditionals, `case`, `unless`, `each`, `map`, `filter`, `reduce`, `with`, ranges, arrays, hashes, and lambda-based iteration.
+
+- **11.4 End-to-End Web Application Deployment, User Management and Nginx Configuration Using Hiera and EPP**  
+  Built a complete Puppet-managed web application deployment covering dedicated user creation, Nginx installation, directory and permission management, EPP-generated configuration and HTML, Hiera parameterization, service dependencies, `notify`-based refresh, stale-site removal, and public-IP verification.
 
 ---
 
