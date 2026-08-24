@@ -859,7 +859,7 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 11. **Puppet Mastery Part-11 — Advanced Puppet Configuration Management, Automation, DSL Programming, and Web Application Deployment**
 
-- [Puppet Mastery Part-11.pdf](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Puppet%20Mastery%20Part-11.pdf)
+- [Puppet Mastery Part-11 (Practical scenarios part-2).pdf](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Puppet%20Mastery%20Part-11.pdf)
 
 **Topics Covered**
 
