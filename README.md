@@ -874,10 +874,11 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 - **11.4 End-to-End Web Application Deployment, User Management and Nginx Configuration Using Hiera and EPP**  
   Built a complete Puppet-managed web application deployment covering dedicated user creation, Nginx installation, directory and permission management, EPP-generated configuration and HTML, Hiera parameterization, service dependencies, `notify`-based refresh, stale-site removal, and public-IP verification.
+  
 
 12. **Special Armageddon Practicals**
 
--- **12.1 Configuration-Driven Web Server Deployment with Puppet, Hiera, Facter, EPP Templates and Apache VirtualHosts**
+- **12.1 Configuration-Driven Web Server Deployment with Puppet, Hiera, Facter, EPP Templates and Apache VirtualHosts**
    - [Final Armageddon Practical-1 (Puppet)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Final%20Armageddon%20Practical-1%28Puppet%29.pdf)
 
 ---
