@@ -899,6 +899,8 @@ The practicals progressively move from **Nagios fundamentals to advanced monitor
 
 1. **Nagios Monitoring, Service Management and Custom Plugin Development**
 
+- [Nagios Mastery Part-1 — Complete Monitoring, Alerting and Custom Plugin Practical Documentation](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Nagios%20Mastery%20Part-1.pdf)
+
 - **1.1 Nagios Monitoring Infrastructure Deployment:** Installation and configuration of Nagios Core, prerequisite setup, compilation and deployment, web interface configuration, host and service definitions, monitoring concepts, plugins, checks, scheduling, and Nagios architecture.
 
 - **1.2 Advanced Service Monitoring, State Management and Web Interface:** Production-oriented service monitoring using Nagios, including service templates, command definitions, plugin arguments, check/retry intervals, SOFT and HARD states, recovery handling, flapping detection, acknowledgements, downtime, and service management through the Nagios Web Interface.
