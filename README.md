@@ -883,6 +883,24 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
 ---
 
+## Unit 2: Nagios Monitoring, Observability and Production Alerting
+
+### Introduction
+
+After mastering configuration management and infrastructure automation with Puppet, the next critical layer is **Infrastructure Monitoring and Observability**.
+
+Nagios enables infrastructure and services to be continuously monitored, allowing administrators to detect failures, track service health, manage state transitions, and receive automated alerts before issues impact production systems.
+
+This unit focuses not only on configuring Nagios checks but also on understanding how **Nagios Core executes plugins, interprets exit codes, manages SOFT/HARD states, handles notifications, and integrates with production-style email alerting**.
+
+1. **Nagios Monitoring, Service Management and Custom Plugin Development**
+
+- **1.1 Nagios Monitoring Infrastructure Deployment:** Installation and configuration of Nagios Core, prerequisite setup, compilation and deployment, web interface configuration, host and service definitions, monitoring concepts, plugins, checks, scheduling, and Nagios architecture.
+
+- **1.2 Advanced Service Monitoring, State Management and Web Interface:** Production-oriented service monitoring using Nagios, including service templates, command definitions, plugin arguments, check/retry intervals, SOFT and HARD states, recovery handling, flapping detection, acknowledgements, downtime, and service management through the Nagios Web Interface.
+
+- **1.3 Custom Nagios Plugins and End-to-End Email Alerting:** Development and integration of Bash-based custom plugins for Apache2 and Nginx monitoring, Nagios exit codes and argument handling, response-time thresholds, meaningful plugin output, and production-style **PROBLEM/RECOVERY notifications using Postfix and Amazon SES**, including Nagios notification macros and email delivery validation.
+
 ## Core Technical Domains Covered
 
 ### Puppet Fundamentals
