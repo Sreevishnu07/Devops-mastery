@@ -891,7 +891,11 @@ After mastering configuration management and infrastructure automation with Pupp
 
 Nagios enables infrastructure and services to be continuously monitored, allowing administrators to detect failures, track service health, manage state transitions, and receive automated alerts before issues impact production systems.
 
-This unit focuses not only on configuring Nagios checks but also on understanding how **Nagios Core executes plugins, interprets exit codes, manages SOFT/HARD states, handles notifications, and integrates with production-style email alerting**.
+This unit goes beyond basic monitoring configuration and focuses on **production-oriented monitoring practices, custom plugin development, service reliability, alerting workflows, troubleshooting, and real-world infrastructure scenarios**.
+
+The practicals progressively move from **Nagios fundamentals to advanced monitoring architecture, integrations, automation, observability, and production-grade operational scenarios**, building the skills required to design and manage reliable monitoring systems.
+
+---
 
 1. **Nagios Monitoring, Service Management and Custom Plugin Development**
 
