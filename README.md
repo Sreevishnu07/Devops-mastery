@@ -879,8 +879,22 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 12. **Special Armageddon Practicals**
 
 - **12.1 Configuration-Driven Web Server Deployment with Puppet, Hiera, Facter, EPP Templates and Apache VirtualHosts**
+
    - [Final Armageddon Practical-1 (Puppet)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Final%20Armageddon%20Practical-1%28Puppet%29.pdf)
 
+- **12.2 Master Practical on Configuration-Driven Infrastructure and Web Application Deployment**
+
+   - [Puppet Mastery Part-12 (Special Practical-2)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Puppet%20Mastery%20Part-12(Special%20Practical-2).pdf)
+
+    - **User, Group, SSH and Sudo Management**  
+        Managed users, groups, SSH authorized keys, and Hiera-driven Sudo configurations with secure permissions and `visudo` validation.
+
+    - **12.2 Automated System Maintenance and Cron Management**  
+        Configured application log directories and Puppet-managed Cron jobs for automated cleanup of logs older than 7 days.
+
+    - **12.3 Nginx Web Application Deployment and Advanced Puppet Automation**  
+        Deployed an Nginx web application using Hiera, Facts, EPP templates, custom functions, resource relationships, service management, and configuration-             driven deployment.
+      
 ---
 
 ## Unit 2: Nagios Monitoring, Observability and Production Alerting
