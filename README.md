@@ -1020,6 +1020,7 @@ Reusable Parameterized Infrastructure
         Manual Changes
                 ↓
 Consistent Automated Infrastructure
+```
 
 ---
 
@@ -1061,7 +1062,8 @@ The practicals progressively move from **Nagios fundamentals to advanced monitor
 
 - **2.3 Custom Bash Load Monitoring Plugin with `getopts`, Threshold-Based Alerting and Nagios `$ARG$` Integration:** Development of a Bash load-average monitoring plugin using `getopts` for `-w` and `-c` threshold arguments, `/proc/loadavg` for system load data, Nagios state mapping, and end-to-end argument passing from `localhost.cfg` through `commands.cfg` using `$ARG1$`–`$ARG4$`.
 
-```
+---
+
 ## Philosophy
 
 This repository is not about memorizing commands.
