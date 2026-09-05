@@ -894,34 +894,6 @@ This unit focuses not only on writing Puppet manifests but also on understanding
 
     - **12.3 Nginx Web Application Deployment and Advanced Puppet Automation**  
         Deployed an Nginx web application using Hiera, Facts, EPP templates, custom functions, resource relationships, service management, and configuration-             driven deployment.
-      
----
-
-## Unit 2: Nagios Monitoring, Observability and Production Alerting
-
-### Introduction
-
-After mastering configuration management and infrastructure automation with Puppet, the next critical layer is **Infrastructure Monitoring and Observability**.
-
-Nagios enables infrastructure and services to be continuously monitored, allowing administrators to detect failures, track service health, manage state transitions, and receive automated alerts before issues impact production systems.
-
-This unit goes beyond basic monitoring configuration and focuses on **production-oriented monitoring practices, custom plugin development, service reliability, alerting workflows, troubleshooting, and real-world infrastructure scenarios**.
-
-The practicals progressively move from **Nagios fundamentals to advanced monitoring architecture, integrations, automation, observability, and production-grade operational scenarios**, building the skills required to design and manage reliable monitoring systems.
-
----
-
-1. **Nagios Monitoring, Service Management and Custom Plugin Development**
-
-- [Nagios Mastery Part-1: Complete Monitoring, Alerting and Custom Plugin Practical Documentation](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Nagios%20Mastery%20Part-1.pdf)
-
-**Topics Covered**
-
-- **1.1 Nagios Monitoring Infrastructure Deployment:** Installation and configuration of Nagios Core, prerequisite setup, compilation and deployment, web interface configuration, host and service definitions, monitoring concepts, plugins, checks, scheduling, and Nagios architecture.
-
-- **1.2 Advanced Service Monitoring, State Management and Web Interface:** Production-oriented service monitoring using Nagios, including service templates, command definitions, plugin arguments, check/retry intervals, SOFT and HARD states, recovery handling, flapping detection, acknowledgements, downtime, and service management through the Nagios Web Interface.
-
-- **1.3 Custom Nagios Plugins and End-to-End Email Alerting:** Development and integration of Bash-based custom plugins for Apache2 and Nginx monitoring, Nagios exit codes and argument handling, response-time thresholds, meaningful plugin output, and production-style **PROBLEM/RECOVERY notifications using Postfix and Amazon SES**, including Nagios notification macros and email delivery validation.
 
 ## Core Technical Domains Covered
 
@@ -1048,6 +1020,47 @@ Reusable Parameterized Infrastructure
         Manual Changes
                 ↓
 Consistent Automated Infrastructure
+
+---
+
+## Unit 2: Nagios Monitoring, Observability and Production Alerting
+
+### Introduction
+
+After mastering configuration management and infrastructure automation with Puppet, the next critical layer is **Infrastructure Monitoring and Observability**.
+
+Nagios enables infrastructure and services to be continuously monitored, allowing administrators to detect failures, track service health, manage state transitions, and receive automated alerts before issues impact production systems.
+
+This unit goes beyond basic monitoring configuration and focuses on **production-oriented monitoring practices, custom plugin development, service reliability, alerting workflows, troubleshooting, and real-world infrastructure scenarios**.
+
+The practicals progressively move from **Nagios fundamentals to advanced monitoring architecture, integrations, automation, observability, and production-grade operational scenarios**, building the skills required to design and manage reliable monitoring systems.
+
+---
+
+1. **Nagios Monitoring, Service Management and Custom Plugin Development**
+
+- [Nagios Mastery Part-1: Complete Monitoring, Alerting and Custom Plugin Practical Documentation](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Nagios%20Mastery%20Part-1.pdf)
+
+**Topics Covered**
+
+- **1.1 Nagios Monitoring Infrastructure Deployment:** Installation and configuration of Nagios Core, prerequisite setup, compilation and deployment, web interface configuration, host and service definitions, monitoring concepts, plugins, checks, scheduling, and Nagios architecture.
+
+- **1.2 Advanced Service Monitoring, State Management and Web Interface:** Production-oriented service monitoring using Nagios, including service templates, command definitions, plugin arguments, check/retry intervals, SOFT and HARD states, recovery handling, flapping detection, acknowledgements, downtime, and service management through the Nagios Web Interface.
+
+- **1.3 Custom Nagios Plugins and End-to-End Email Alerting:** Development and integration of Bash-based custom plugins for Apache2 and Nginx monitoring, Nagios exit codes and argument handling, response-time thresholds, meaningful plugin output, and production-style **PROBLEM/RECOVERY notifications using Postfix and Amazon SES**, including Nagios notification macros and email delivery validation.
+
+2. **Custom Nagios Plugin Development and Threshold-Based Monitoring**
+
+- [Nagios Mastery Part-2: Custom Plugin Development, Threshold Monitoring and Nagios Integration](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Nagios%20Mastery%20Part-2.pdf)
+
+**Topics Covered**
+
+- **2.1 Production-Grade Custom Python HTTP Monitoring Plugin with `requests`, Response-Time Thresholds and Nagios Integration:** Development of a Python-based Nagios plugin using `requests` for HTTP health checks, response-time measurement, configurable WARNING/CRITICAL thresholds, exception handling, HTTP status validation, and Nagios-compatible exit codes.
+
+- **2.2 Production-Style Custom Bash Disk Usage Monitoring Plugin with Dynamic Filesystem Thresholds and Nagios Integration:** Development of a Bash plugin for filesystem utilization monitoring using `df`, with configurable filesystem paths and WARNING/CRITICAL thresholds, explicit Nagios exit-code handling, meaningful plugin output, and integration through Nagios command and service definitions.
+
+- **2.3 Custom Bash Load Monitoring Plugin with `getopts`, Threshold-Based Alerting and Nagios `$ARG$` Integration:** Development of a Bash load-average monitoring plugin using `getopts` for `-w` and `-c` threshold arguments, `/proc/loadavg` for system load data, Nagios state mapping, and end-to-end argument passing from `localhost.cfg` through `commands.cfg` using `$ARG1$`–`$ARG4$`.
+
 ```
 ## Philosophy
 
