@@ -1062,6 +1062,22 @@ The practicals progressively move from **Nagios fundamentals to advanced monitor
 
 - **2.3 Custom Bash Load Monitoring Plugin with `getopts`, Threshold-Based Alerting and Nagios `$ARG$` Integration:** Development of a Bash load-average monitoring plugin using `getopts` for `-w` and `-c` threshold arguments, `/proc/loadavg` for system load data, Nagios state mapping, and end-to-end argument passing from `localhost.cfg` through `commands.cfg` using `$ARG1$`–`$ARG4$`.
 
+3. **Production-Grade Distributed and Web Application Monitoring with Nagios Core**
+
+**Topics Covered**
+
+**Distributed Nagios Monitoring with Remote Host Checks and Custom Plugin Execution**
+
+- **3.1.1 NCPA-Based Remote Host Monitoring:** Installed and configured NCPA on a remote Ubuntu host and established secure Nagios Master-to-agent communication over TCP 5693.
+- **3.1.2 Remote Metrics and Service Monitoring:** Monitored CPU, memory, disk and Nginx service state using `check_ncpa.py`, NCPA APIs and reusable `$ARG1$` command configuration.
+- **3.1.3 Remote Custom Plugin Execution:** Executed a custom Bash monitoring plugin remotely through NCPA, including permissions, `nagios` execution user and log-access configuration.
+
+**Production-Grade Web Server Monitoring with Nagios: Service Health, HTTP Availability, Application Validation and Log-Based Failure Detection**
+
+- **3.2.1 Web Server & HTTP Monitoring:** Monitored remote Nginx service health through NCPA and implemented a Python HTTP availability plugin for status, connectivity, timeout and response-time monitoring.
+- **3.2.2 Application Validation:** Deployed a JSON health endpoint and developed a Python plugin to validate application and database health beyond a simple HTTP 200 response.
+- **3.2.3 Log-Based Failure Detection:** Developed a Bash Nginx log-monitoring plugin and executed it remotely through NCPA, including log permissions, threshold-based alerting, failure injection, recovery and notification validation.
+
 ---
 
 ## Philosophy
