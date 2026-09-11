@@ -1064,6 +1064,8 @@ The practicals progressively move from **Nagios fundamentals to advanced monitor
 
 3. **Production-Grade Distributed and Web Application Monitoring with Nagios Core**
 
+- [Nagios Mastery Part-3:Production-Grade Distributed and Web Application Monitoring with Nagios Core and NCPA](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Nagios%20Mastery%20Part-3.pdf)
+
 **Topics Covered**
 
 **Distributed Nagios Monitoring with Remote Host Checks and Custom Plugin Execution**
