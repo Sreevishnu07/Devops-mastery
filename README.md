@@ -1080,6 +1080,54 @@ The practicals progressively move from **Nagios fundamentals to advanced monitor
 - **3.2.2 Application Validation:** Deployed a JSON health endpoint and developed a Python plugin to validate application and database health beyond a simple HTTP 200 response.
 - **3.2.3 Log-Based Failure Detection:** Developed a Bash Nginx log-monitoring plugin and executed it remotely through NCPA, including log permissions, threshold-based alerting, failure injection, recovery and notification validation.
 
+4. **Production-Grade End-to-End Observability of a Distributed Web Application Stack: Nginx Reverse Proxy, Flask Application, PostgreSQL Database and Two-Server Infrastructure**
+
+- [Nagios Mastery Part-4: End-to-End Observability of a Live Two-Server Nginx,Flask,PostgreSQL Stack](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Nagios%20Mastery%20Part-4-End%20to%20End%20Monitoring%20of%20a%20Live%20Two-Server%20Nginx%2CFlask%2CPostgreSQL%20Stack.pdf).
+
+**Topics Covered**
+
+**Production-Grade Two-Server Infrastructure Monitoring with NCPA**
+
+- **4.1 Module 1 — Initial NCPA Discovery and WEB-01 Infrastructure Monitoring:** Performed NCPA discovery and manual checks on WEB-01 and configured production-style monitoring for CPU, memory, root-disk usage and Nginx service health through Nagios Core.
+
+- **4.2 Module 2 — Initial NCPA Discovery and DB-01 Infrastructure Monitoring:** Deployed and validated NCPA monitoring on DB-01 and configured centralized Nagios monitoring for database-server CPU, memory, root-disk usage and PostgreSQL service state.
+
+**PostgreSQL Database Monitoring and Application Health**
+
+- **4.3 Module 3 — PostgreSQL Setup in DB-01:** Deployed PostgreSQL on DB-01, configured the `vish_db` database and monitoring credentials, established remote PostgreSQL connectivity from Nagios Master and validated database availability using standard Nagios PostgreSQL checks.
+
+- **4.4 Module 4 — Custom Python PostgreSQL Application-Health Monitoring:** Developed a custom Python Nagios plugin to perform real PostgreSQL connectivity and application-level database validation by executing queries against `vish_db`, measuring query response time and implementing Nagios OK/WARNING/CRITICAL/UNKNOWN states.
+
+**End-to-End WEB-01 ↔ DB-01 Application Integration**
+
+- **4.5 Module 5 — WEB-01 ↔ DB-01 Application Integration:** Built and integrated a live Flask web application on WEB-01 with PostgreSQL on DB-01 through a production-style Nginx reverse-proxy architecture, implemented `/`, `/health` and `/api/status` endpoints and established end-to-end application-to-database communication.
+
+- **4.6 Module 6 — End-to-End Web Application Monitoring:** Developed application-specific Python Nagios plugins for HTML content validation, application health validation and API-level validation, monitoring the complete path from HTTP request through Nginx and Flask to PostgreSQL-backed application data.
+
+- **4.7 Module 7 — Production Failure Detection, SOFT/HARD States and Recovery:** Performed controlled failure injection and recovery testing across the web application and infrastructure stack, validated Nagios SOFT/HARD state transitions, threshold-based alerting, recovery detection and notification behaviour.
+
+**Flagship Architecture**
+
+```text
+                         Nagios Master
+                        /             \
+                       /               \
+                 NCPA Monitoring    NCPA + DB Checks
+                     /                   \
+                  WEB-01               DB-01
+                    |                     |
+              Nginx :80             PostgreSQL :5432
+                    |                     |
+              Flask Application       vish_db
+                    |                     |
+                    └────── Database ─────┘
+                         Communication
+
+             HTTP → Nginx → Flask → PostgreSQL
+                      ↓
+                 Nagios Monitoring
+
+```
 ---
 
 ## Philosophy
