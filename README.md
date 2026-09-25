@@ -1130,6 +1130,36 @@ The practicals progressively move from **Nagios fundamentals to advanced monitor
 ```
 ---
 
+## Unit 3: Infrastructure as Code with Terraform
+
+### Introduction
+
+Terraform is an Infrastructure as Code (IaC) tool used to define, provision, and manage infrastructure through declarative configuration(**This and Ansible would be the most important set of tools that i would be studying in depths for INT333**)
+
+It enables infrastructure to be managed consistently as code, supporting repeatable deployments, controlled changes, and reliable infrastructure lifecycle management across cloud environments.
+
+The overall Terraform mastery roadmap will progress toward **production-grade cloud architecture, reusable infrastructure modules, multi-environment deployments, networking, security, and scalable infrastructure design**.
+
+Further topics will include **remote state and state locking, advanced AWS architectures, VPCs and subnet design, load balancing, high availability, databases, and infrastructure lifecycle operations**.
+
+The roadmap will then integrate Terraform with **Ansible, Puppet, and Nagios**, followed by CI/CD pipelines, automated provisioning and configuration, monitoring, drift detection, failure recovery, and end-to-end production scenarios.
+
+---
+
+1. **Terraform Local Resource Lifecycle and State Management, AWS EC2 Provisioning, and Parameterized AWS Infrastructure**
+
+- [Terraform Mastery Part-1: Complete Terraform Infrastructure Provisioning and Automation Documentation](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Terraform%20Mastery%20Part-1.pdf)
+
+**Topics Covered**
+
+- **1.1 Terraform Local Resource Lifecycle and State Management:** Created and managed a local file resource using Terraform, and practiced the `init`, `plan`, `apply`, and `destroy` workflow. Examined how Terraform state records the managed resource and how Terraform identifies that no changes are required when configuration and state are in sync.
+
+- **1.2 Terraform AWS EC2 Provisioning:** Set up local AWS CLI authentication and verified the active AWS identity, configured the AWS provider, and used Terraform to discover an Ubuntu AMI and provision an EC2 instance. Applied and verified the deployment in AWS, inspected the instance details, and destroyed the instance through Terraform.
+
+- **1.3 Parameterized AWS Infrastructure Using Terraform Variables, Outputs, Locals and Data Sources:** Organized the configuration into separate Terraform files and used variables and `terraform.tfvars`, locals and common tags, an Ubuntu AMI data source, and outputs for instance details. Provisioned an EC2 instance with a locally generated SSH key pair and AWS key-pair resource, configured a security group for SSH access, applied the infrastructure, and successfully connected to the Ubuntu instance over SSH.
+
+---
+
 ## Philosophy
 
 This repository is not about memorizing commands.
