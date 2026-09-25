@@ -1158,6 +1158,20 @@ The roadmap will then integrate Terraform with **Ansible, Puppet, and Nagios**, 
 
 - **1.3 Parameterized AWS Infrastructure Using Terraform Variables, Outputs, Locals and Data Sources:** Organized the configuration into separate Terraform files and used variables and `terraform.tfvars`, locals and common tags, an Ubuntu AMI data source, and outputs for instance details. Provisioned an EC2 instance with a locally generated SSH key pair and AWS key-pair resource, configured a security group for SSH access, applied the infrastructure, and successfully connected to the Ubuntu instance over SSH.
 
+2. **Flagship Practical-1 (Terraform Mastery Part-2): Production-Grade AWS VPC Networking with Terraform: Multi-AZ Architecture, Public and Private Subnet Segmentation, Internet Gateway Routing, Secure SSH-Enabled EC2 Provisioning, and Infrastructure-as-Code Lifecycle Management**
+
+- [Flagship Practical-1 (Terraform Mastery Part-2): Production-Grade AWS VPC Networking with Terraform](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Flagship%20Practical-1(Terraform%20Mastery%20Part-2).pdf)
+
+**Topics Covered**
+
+- **2.1 Production-Grade Multi-AZ VPC Design and Subnet Segmentation:** Designed and provisioned a custom AWS VPC using the `10.0.0.0/16` CIDR block, then divided its address space into four non-overlapping `/24` subnets—two public and two private—across `ap-south-1a` and `ap-south-1b`. Configured subnet-level settings and associations to establish a structured, multi-AZ network foundation with clear separation between internet-facing and internal resources.
+
+- **2.2 Internet Gateway Connectivity, Route Tables, and Network Security:** Created and attached an Internet Gateway, configured dedicated public and private route tables, and associated the appropriate subnets with each table. Established the public default route (`0.0.0.0/0`) through the Internet Gateway while keeping the private route table without a direct internet default route. Provisioned a VPC security group with SSH access restricted to the administrator's public IPv4 address using a `/32` CIDR rule.
+
+- **2.3 Terraform-Based EC2 Provisioning, SSH Access, and Infrastructure Verification:** Organized the deployment using Terraform variables, `terraform.tfvars`, locals and common tags, an Ubuntu AMI data source, an AWS key-pair resource, and outputs. Provisioned an Ubuntu EC2 instance in the public subnet with a public IPv4 address, inspected the resulting VPC resource map and AWS resource configuration, and used Terraform plan, apply, state, and output commands to review and validate the infrastructure deployment.
+
+---
+
 ---
 
 ## Philosophy
