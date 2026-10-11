@@ -889,10 +889,10 @@ This unit focuses not only on writing Puppet manifests but also on understanding
     - **User, Group, SSH and Sudo Management**  
         Managed users, groups, SSH authorized keys, and Hiera-driven Sudo configurations with secure permissions and `visudo` validation.
 
-    - **12.2 Automated System Maintenance and Cron Management**  
+    - **Automated System Maintenance and Cron Management**  
         Configured application log directories and Puppet-managed Cron jobs for automated cleanup of logs older than 7 days.
 
-    - **12.3 Nginx Web Application Deployment and Advanced Puppet Automation**  
+    - **Nginx Web Application Deployment and Advanced Puppet Automation**  
         Deployed an Nginx web application using Hiera, Facts, EPP templates, custom functions, resource relationships, service management, and configuration-             driven deployment.
 
 ## Core Technical Domains Covered
