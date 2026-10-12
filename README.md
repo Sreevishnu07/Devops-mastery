@@ -1082,7 +1082,7 @@ The practicals progressively move from **Nagios fundamentals to advanced monitor
 
 4. **Production-Grade End-to-End Observability of a Distributed Web Application Stack: Nginx Reverse Proxy, Flask Application, PostgreSQL Database and Two-Server Infrastructure**
 
-- [Nagios Mastery Part-4: End-to-End Observability of a Live Two-Server Nginx,Flask,PostgreSQL Stack](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Nagios%20Mastery%20Part-4-End%20to%20End%20Monitoring%20of%20a%20Live%20Two-Server%20Nginx%2CFlask%2CPostgreSQL%20Stack.pdf).
+1. [Nagios Mastery Part-4: End-to-End Monitoring of a Live Two-Server Nginx, Flask, PostgreSQL Stack](https://github.com/Sreevishnu07/Devops-mastery/main/Nagios%20Mastery%20Part-4-End%20to%20End%20Monitoring%20of%20a%20Live%20Two-Server%20Nginx%2CFlask%2CPostgreSQL%20Stack.pdf)
 
 **Topics Covered**
 
