@@ -1199,6 +1199,36 @@ The roadmap will then integrate Terraform with **Ansible, Puppet, and Nagios**, 
 
 ---
 
+## Unit 4: Configuration Management and Automation with Ansible
+
+### Introduction
+
+Ansible is an IT automation and configuration management tool used to configure systems, deploy applications, orchestrate infrastructure, and automate operational tasks through declarative playbooks and reusable automation components(**This and Terraform would be the most important set of tools that i would be studying in depths for INT333**)
+
+It enables systems to be managed consistently through repeatable automation, supporting configuration enforcement, remote execution, controlled changes, and reliable infrastructure operations across managed nodes.
+
+The overall Ansible mastery roadmap will progress toward **production-grade configuration management, reusable infrastructure modules, multi-environment deployments, secure remote access, and scalable automation design**.
+
+Further topics will include **playbooks, roles, variables, facts, handlers, templates, loops, conditionals, tags, error handling, Ansible Vault, and environment-specific configuration**.
+
+The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, followed by automated provisioning and configuration, monitoring, drift detection, failure recovery, and end-to-end production scenarios.
+
+---
+
+1. **Ansible Installation, Control Node Configuration, Remote Node Management, and Ad-Hoc Command Execution**
+
+   - [Ansible Mastery Part-1: Complete Ansible Automation and Configuration Management Documentation](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible%20Mastery%20Part-1.pdf)
+
+   **Topics Covered**
+
+   - **1.1 Ansible Installation and Control Node Configuration:** Installed Ansible Core in an isolated Python virtual environment using `uv`, configured `ansible.cfg`, created an INI inventory, and verified local execution using the `ansible.builtin.ping` module.
+
+   - **1.2 Remote Node Management and SSH Authentication:** Provisioned an Ubuntu EC2 managed node, configured Ed25519 key-based authentication, SSH host-key verification, `known_hosts`, and `ssh-agent`, and validated remote connectivity through inventory configuration and ad-hoc commands.
+
+   - **1.3 Remote Command Execution, System Facts, and Privilege Escalation:** Executed remote `ping`, `hostname`, and `uptime` commands, gathered system information using `ansible.builtin.setup`, and verified privilege escalation using `-b` (`become`) by executing `whoami` as `root`.
+  
+---
+
 ## Philosophy
 
 This repository is not about memorizing commands.
