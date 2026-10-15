@@ -1227,6 +1227,18 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
 
    - **1.3 Remote Command Execution, System Facts, and Privilege Escalation:** Executed remote `ping`, `hostname`, and `uptime` commands, gathered system information using `ansible.builtin.setup`, and verified privilege escalation using `-b` (`become`) by executing `whoami` as `root`.
   
+2. **Ansible Playbook Fundamentals: Idempotent Configuration Management, Nginx Service Deployment, and Error Handling**
+
+   - [Ansible Mastery Part-2: Ansible Playbook Fundamentals and Configuration Management](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible%20Mastery%20Part-2%20Ansible-Playbook-Fundamentals-and-Configuration-Management.pdf)
+
+   **Topics Covered**
+
+   - **2.1 Playbook Fundamentals and Idempotency:** Created and executed Ansible playbooks, explored YAML structure and tasks, and verified idempotency and configuration drift correction.
+
+   - **2.2 Nginx Deployment, Handlers, and File Management:** Automated Nginx installation and service management, deployed web content using handlers, and managed files, directories, Linux users, and groups.
+
+   - **2.3 Error Handling and Recovery:** Practiced Ansible's `block`, `rescue`, and `always` directives by simulating a task failure and verifying successful error handling.
+  
 ---
 
 ## Philosophy
