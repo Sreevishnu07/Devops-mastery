@@ -1239,6 +1239,18 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
 
    - **2.3 Error Handling and Recovery:** Practiced Ansible's `block`, `rescue`, and `always` directives by simulating a task failure and verifying successful error handling.
   
+3. **Vagrant-Based Ubuntu VM Provisioning with VMware Workstation, Ansible Local Configuration, and Nginx Service Management**
+
+   - [Ansible Mastery Part-3: Vagrant Fundamentals and Ansible Integration](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible-Mastery-Part-3-Vagrant-Fundamentals-and-Ansible-Integration.pdf)
+
+   **Topics Covered**
+
+   - **3.1 Vagrant Setup and VMware Integration:** Installed Vagrant, configured the VMware Workstation provider and Vagrant VMware Utility, and provisioned an Ubuntu 22.04 virtual machine using a `Vagrantfile`.
+
+   - **3.2 VM Lifecycle Management and Access:** Started and accessed the Vagrant-managed VM using `vagrant up`, `vagrant status`, and `vagrant ssh`, and verified its configured hostname.
+
+   - **3.3 Ansible Local Provisioning and Nginx Management:** Configured Ansible Local provisioning through a playbook to install Nginx, ensure the service was running and enabled, and verify the successful configuration.
+  
 ---
 
 ## Philosophy
