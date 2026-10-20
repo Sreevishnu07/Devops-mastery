@@ -1251,6 +1251,18 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
 
    - **3.3 Ansible Local Provisioning and Nginx Management:** Configured Ansible Local provisioning through a playbook to install Nginx, ensure the service was running and enabled, and verify the successful configuration.
   
+4. **Advanced Ansible Playbook Development and Dynamic Configuration Management**
+
+   - [Ansible Mastery Part-4: Advanced Playbooks and Dynamic Configuration Management](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible-Mastery-Part-4-Advanced-Playbooks-and-Dynamic-Configuration-Management.pdf)
+
+   **Topics Covered**
+
+   - **4.1 Variable Organization and System Facts:** Organized configuration using `group_vars` and `host_vars`, gathered system information using Ansible facts, and accessed command results through registered variables.
+
+   - **4.2 Conditional Execution and Loop-Based Automation:** Implemented conditional task execution using `when`, iterated over lists and dictionaries, and automated idempotent directory creation on managed nodes using loops.
+
+   - **4.3 Jinja2 Templating and Dynamic Configuration Generation:** Deployed configuration files using Jinja2 templates, incorporated Ansible variables and system facts, and implemented conditional logic and loops within templates to generate dynamic configuration content.
+  
 ---
 
 ## Philosophy
