@@ -1263,6 +1263,20 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
 
    - **4.3 Jinja2 Templating and Dynamic Configuration Generation:** Deployed configuration files using Jinja2 templates, incorporated Ansible variables and system facts, and implemented conditional logic and loops within templates to generate dynamic configuration content.
   
+5. **Enterprise-Grade Role-Based Web Application Deployment and Configuration Management**
+
+   - [Ansible Mastery Part-5(Flagship Practical-1: Enterprise Nginx Deployment and Configuration Management](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible_Mastery_Part-5_Flagship_Practical-1_Enterprise_Nginx_Deployment_and_Configuration_Management.pdf)
+
+   **Topics Covered**
+
+   - **5.1 Modular Role-Based Architecture and Task Organization:** Structured the web application deployment using reusable Ansible roles, separated installation, configuration, and service management into dedicated task files, and organized the deployment through a main playbook.
+
+   - **5.2 Jinja2 Templating and Dynamic Web Server Configuration:** Deployed a dynamically generated HTML page and Nginx site configuration using Jinja2 templates, incorporated Ansible variables and system facts, and configured environment-specific application details.
+
+   - **5.3 Idempotent Configuration Management and Event-Driven Handlers:** Automated web root creation, Nginx site configuration, default-site removal, and site enablement using symbolic links, and implemented handlers to validate Nginx configuration and reload the service when configuration changes occur.
+
+   - **5.4 Service Management and End-to-End Deployment Verification:** Ensured Nginx was installed, enabled, and running, validated the deployed web application using HTTP requests, and verified application availability through automated health checks.
+  
 ---
 
 ## Philosophy
