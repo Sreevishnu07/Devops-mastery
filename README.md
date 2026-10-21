@@ -1265,7 +1265,7 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
   
 5. **Enterprise-Grade Role-Based Web Application Deployment and Configuration Management**
 
-   - [Ansible Mastery Part-5(Flagship Practical-1: Enterprise Nginx Deployment and Configuration Management](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible_Mastery_Part-5_Flagship_Practical-1_Enterprise_Nginx_Deployment_and_Configuration_Management.pdf)
+   - [Ansible Mastery Part-5(Flagship Practical-1: Enterprise Nginx Deployment and Configuration Management)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible_Mastery_Part-5_Flagship_Practical-1_Enterprise_Nginx_Deployment_and_Configuration_Management.pdf)
 
    **Topics Covered**
 
