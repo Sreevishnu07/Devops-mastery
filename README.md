@@ -1277,6 +1277,21 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
 
    - **5.4 Service Management and End-to-End Deployment Verification:** Ensured Nginx was installed, enabled, and running, validated the deployed web application using HTTP requests, and verified application availability through automated health checks.
   
+6. **Enterprise-Grade Multi-Node Infrastructure Orchestration and Configuration Management**
+
+- [Ansible Mastery Part-6 (Flagship Practical-2: Enterprise Multi-Node Orchestration with Reusable Roles, Shared Baselines, and Nginx–Apache Automation)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible%20Mastery%20Part-6%20%E2%80%93%20Enterprise%20Multi-Node%20Orchestration%20with%20Reusable%20Roles%2C%20Shared%20Baselines%2C%20and%20Nginx%E2%80%93Apache%20Automation.pdf)
+
+**Topics Covered**
+
+- **6.1 Multi-Node Inventory Architecture and Shared System Baselines:** Organized multiple Ubuntu managed nodes into logical inventory groups for Nginx and Apache deployments, established parent-child group relationships, and applied a shared baseline for APT cache updates, common package installation, and chrony service management.
+
+- **6.2 Reusable Role-Based Architecture and Heterogeneous Web Server Deployment:** Designed a modular Ansible architecture with dedicated `common`, `nginx`, and `apache` roles, separated shared configuration from server-specific tasks, and orchestrated the complete multi-node deployment through a centralized playbook.
+
+- **6.3 Jinja2 Templating, Declarative Configuration, and Service Lifecycle Management:** Used Jinja2 templates and Ansible variables and system facts to generate server-specific HTML pages and virtual host configurations, automated document root creation, site enablement, default-site management, and ensured the respective web services were enabled and running.
+
+- **6.4 Configuration Validation, Idempotent Execution, and Automated Health Verification:** Applied configuration changes through Ansible tasks and handlers, validated deployment success using automated HTTP health checks, verified Nginx and Apache responses independently, and examined task execution results to assess configuration consistency and repeatability across both managed nodes.
+
+  
 ---
 
 ## Philosophy
