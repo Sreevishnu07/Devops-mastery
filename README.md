@@ -1279,7 +1279,7 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
   
 6. **Enterprise-Grade Multi-Node Infrastructure Orchestration and Configuration Management**
 
-- [Ansible Mastery Part-6 (Flagship Practical-2: Enterprise Multi-Node Orchestration with Reusable Roles, Shared Baselines, and Nginx–Apache Automation)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible%20Mastery%20Part-6%20%E2%80%93%20Enterprise%20Multi-Node%20Orchestration%20with%20Reusable%20Roles%2C%20Shared%20Baselines%2C%20and%20Nginx%E2%80%93Apache%20Automation.pdf)
+   - [Ansible Mastery Part-6 (Flagship Practical-2: Enterprise Multi-Node Orchestration with Reusable Roles, Shared Baselines, and Nginx–Apache Automation)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible%20Mastery%20Part-6%20%E2%80%93%20Enterprise%20Multi-Node%20Orchestration%20with%20Reusable%20Roles%2C%20Shared%20Baselines%2C%20and%20Nginx%E2%80%93Apache%20Automation.pdf)
 
 **Topics Covered**
 
