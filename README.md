@@ -1291,7 +1291,20 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
 
 - **6.4 Configuration Validation, Idempotent Execution, and Automated Health Verification:** Applied configuration changes through Ansible tasks and handlers, validated deployment success using automated HTTP health checks, verified Nginx and Apache responses independently, and examined task execution results to assess configuration consistency and repeatability across both managed nodes.
 
-  
+7. **Advanced Configuration Automation Across Managed Nodes**
+
+- [Ansible Mastery Part-7 (Advanced Configuration Automation: Loop-Driven User Provisioning, Conditional Execution, Environment Variable Management, and Templated Nginx Deployment)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible-Mastery-Part-7-Advanced-Configuration-Automation.pdf)
+
+**Topics Covered**
+
+- **7.1 Role-Based System Administration and Declarative Resource Management:** Organized system administration tasks into a reusable Ansible role, automated group creation and user provisioning through configurable variables, and managed directory ownership, permissions, and shared-group access using declarative modules.
+
+- **7.2 Loop-Driven Automation, Conditional Execution, and Variable Precedence:** Used Ansible loops to provision multiple users from structured variable definitions, applied conditional task execution based on the target environment, and practiced centralized configuration through shared variables, host-specific variables, and role parameters.
+
+- **7.3 Environment Variable Handling and Dynamic Nginx Web Deployment:** Distinguished controller-side environment variable lookups from environment variables supplied to remote task processes, deployed a dynamically generated HTML page using Jinja2 templates, and configured Nginx to serve the application from a dedicated document root through an explicitly managed site configuration.
+
+- **7.4 Event-Driven Handlers, Service Lifecycle Management, and Automated HTTP Verification:** Automated Nginx site enablement and default-site removal, validated configuration before reloading the service through handlers, ensured Nginx was enabled and running, and verified successful deployment using automated HTTP requests and response-status checks.
+
 ---
 
 ## Philosophy
