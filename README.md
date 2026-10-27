@@ -1293,7 +1293,7 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
 
 7. **Advanced Configuration Automation Across Managed Nodes**
 
-- [Ansible Mastery Part-7 (Advanced Configuration Automation: Loop-Driven User Provisioning, Conditional Execution, Environment Variable Management, and Templated Nginx Deployment)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible-Mastery-Part-7-Advanced-Configuration-Automation.pdf)
+   - [Ansible Mastery Part-7 (Advanced Configuration Automation: Loop-Driven User Provisioning, Conditional Execution, Environment Variable Management, and Templated Nginx Deployment)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible-Mastery-Part-7-Advanced-Configuration-Automation.pdf)
 
 **Topics Covered**
 
