@@ -38,7 +38,7 @@ What started as learning Docker gradually turned into more than 3 months of deep
 
 This **INT-332 course** has genuinely been one of the most special and impactful learning experiences throughout this process and my college life.
 Thereby **INT-333 course** and its documentation would be done in the days to come.
-This README is designed to provide the complete structure, navigation flow, and step-by-step organization of the repository so every section can be explored systematically.
+This README is designed to provide the complete structure, navigation flow, and step-by-step organization of the repository so that every section can be explored systematically.
 
 > **Make sure to check out the 12 Special Practicals section in the README.**
 
