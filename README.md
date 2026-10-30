@@ -1309,20 +1309,20 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
 
 ## Philosophy
 
-This repository is not about memorizing commands.
+This repository is not about memorizing commands or collecting tools.
 
 It is about understanding:
 
-- What happens inside the kernel
-- How namespaces isolate processes
-- How overlay filesystems manage layers
-- How registries store image manifests
-- Why volumes outlive containers
-- How version tags affect deployment stability
+- How Linux, networking, processes, containers, and storage work beneath their abstractions
+- How applications move from source code through builds, images, registries, and deployments
+- How infrastructure is provisioned reproducibly and its desired state maintained across servers
+- How distributed services communicate, scale, and respond to failures
+- How CI/CD automates software delivery and monitoring makes system health observable
+- How different automation and infrastructure tools work together to build reliable systems
 
-Understanding Docker deeply is not about running containers.
+Understanding DevOps deeply is not about mastering isolated tools.
 
-It is about understanding what truly happens when you do.
+It is about understanding how they work together to build, deploy, monitor, and recover real systems.
 
 ---
 
