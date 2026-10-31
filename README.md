@@ -1305,6 +1305,25 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
 
 - **7.4 Event-Driven Handlers, Service Lifecycle Management, and Automated HTTP Verification:** Automated Nginx site enablement and default-site removal, validated configuration before reloading the service through handlers, ensured Nginx was enabled and running, and verified successful deployment using automated HTTP requests and response-status checks.
 
+8. **End-to-End AWS Infrastructure Provisioning and Configuration Management with Terraform and Ansible**  
+   - [Ansible Mastery Part-8 (End-to-End AWS Infrastructure Provisioning and Configuration Management with Terraform and Ansible: Cross-VPC Peering and Bidirectional Routing, Dual-VPC Architecture, CIDR Planning and Subnet Segmentation, Public Subnet Deployment, Internet Gateway Integration, Custom Route Tables and Associations, Secure Security Group Design, SSH Agent Forwarding, Automated EC2 Provisioning, Python Virtual Environment Isolation, Ansible Inventory and Connectivity, Idempotent Configuration Management, Jinja2 Templating, Nginx Deployment, Event-Driven Handler, Service Lifecycle Management, and Dynamic Web Page Delivery)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Ansible%20Mastery%20Part-8-Terraform-Ansible-Integration-with-AWS-VPC-Peering.pdf)
+
+   **Topics Covered**
+
+   - **8.1 Dual-VPC Architecture, CIDR Planning, and AWS Network Provisioning:** Designed two independent AWS VPCs in `ap-south-1` with non-overlapping CIDR ranges for the Ansible control and managed nodes. Created public subnets, Internet Gateways, custom route tables, default internet routes, and explicit subnet associations using Terraform. Organized the infrastructure into reusable configuration files with variables, data sources, shared tags, resource dependencies, and outputs.
+
+   - **8.2 VPC Peering, Bidirectional Routing, and Secure Network Access:** Established same-Region VPC peering and configured routes in both VPC route tables for private cross-VPC communication. Applied longest-prefix routing to understand peer-CIDR route selection while retaining each VPC's independent Internet Gateway. Designed separate security groups with administrator-only SSH access to the control node and control-security-group-based SSH, HTTP, and ICMP access to the managed node.
+
+   - **8.3 Automated EC2 Provisioning, SSH Agent Forwarding, and Private Connectivity:** Provisioned two Ubuntu 22.04 `t3.micro` EC2 instances with encrypted GP3 root volumes and IMDSv2 requirements. Connected from the Windows workstation to the control node using SSH and agent forwarding, then accessed the managed node through its private IP across VPC peering without exposing its SSH service to the public internet.
+
+   - **8.4 Ansible Environment Setup, Inventory, and Automated Configuration Management:** Prepared an isolated Python virtual environment on the control node, configured Ansible inventory, and validated remote connectivity. Used Ansible playbooks and declarative modules for idempotent configuration management, Jinja2 templating, and dynamic generation of the managed node's custom HTML page using host-specific information.
+
+   - **8.5 Event-Driven Nginx Deployment, Service Management, and HTTP Verification:** Deployed and managed Nginx on the remote node, using an event-driven handler to reload the service when notified by configuration changes. Verified the generated page using `curl http://localhost` and confirmed successful playbook execution with `ok=8`, `changed=4`, `unreachable=0`, and `failed=0`.
+
+   **Final Outcome**
+
+   Successfully provisioned a two-VPC AWS environment using Terraform, established private cross-VPC communication through VPC peering, and configured the remote Ubuntu managed node through Ansible over its private IP using SSH agent forwarding. Automated Nginx configuration and deployment with Jinja2 templates and event-driven handlers, then verified successful HTTP delivery of a dynamically generated web page—completing an end-to-end Infrastructure-as-Code and configuration-management workflow.
+
 ---
 
 ## Philosophy
