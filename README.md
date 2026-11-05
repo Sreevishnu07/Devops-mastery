@@ -1324,6 +1324,7 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
 
    Successfully provisioned a two-VPC AWS environment using Terraform, established private cross-VPC communication through VPC peering, and configured the remote Ubuntu managed node through Ansible over its private IP using SSH agent forwarding. Automated Nginx configuration and deployment with Jinja2 templates and event-driven handlers, then verified successful HTTP delivery of a dynamically generated web page—completing an end-to-end Infrastructure-as-Code and configuration-management workflow.
 
+
 ## Final Armageddon Practicals for INT333
 
    - [Nagios Final Armageddon Preparation – Part-1 (Extensive Practice: NRPE Monitoring, Puppet-Nagios Integration, Failure Simulation, and Automated Recovery)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Nagios%20Final%20Armageddon%20Preparation%20Part-1(Puppet-nagios%20integration%20included).pdf)
