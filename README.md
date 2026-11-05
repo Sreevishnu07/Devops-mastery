@@ -1324,6 +1324,20 @@ The roadmap will then integrate Ansible with **Terraform, Puppet, and Nagios**, 
 
    Successfully provisioned a two-VPC AWS environment using Terraform, established private cross-VPC communication through VPC peering, and configured the remote Ubuntu managed node through Ansible over its private IP using SSH agent forwarding. Automated Nginx configuration and deployment with Jinja2 templates and event-driven handlers, then verified successful HTTP delivery of a dynamically generated web page—completing an end-to-end Infrastructure-as-Code and configuration-management workflow.
 
+## Final Armageddon Practicals for INT333
+
+   - [Nagios Final Armageddon Preparation – Part-1 (Extensive Practice: NRPE Monitoring, Puppet-Nagios Integration, Failure Simulation, and Automated Recovery)](https://github.com/Sreevishnu07/Devops-mastery/blob/main/Nagios%20Final%20Armageddon%20Preparation%20Part-1(Puppet-nagios%20integration%20included).pdf)
+
+**Topics Covered**
+
+- **1.1 Nagios Service-State Simulation and Custom Monitoring Commands:** Configured custom Nagios command definitions and service objects to simulate critical service states, validate state transitions, and verify problem notifications through the Nagios dashboard and email notification system.
+
+- **1.2 NRPE Installation, Configuration, and Remote Plugin Execution:** Installed and configured NRPE on remote Ubuntu agents, defined permitted monitoring commands in `nrpe.cfg`, configured `allowed_hosts`, established communication over TCP port 5666, and executed standard Nagios plugins remotely through `check_nrpe`.
+
+- **1.3 Remote Infrastructure Monitoring and Custom HTTP Health Checks:** Registered remote hosts and service definitions in Nagios, integrated remote checks for disk usage, load, processes, users, and SSH, and developed a custom Python HTTP monitoring plugin using `requests` to verify Nginx availability, HTTP response status, and response-time thresholds.
+
+- **1.4 Enterprise-Grade Puppet-Nagios Integration, Failure Simulation, and Automated Recovery:** Developed a reusable Puppet `webapp` module with separate install, configuration, website, and service classes, managed Nginx packages, site configurations, EPP templates, website files, ownership, permissions, and service states, and integrated NRPE-based HTTP monitoring with Nagios. Simulated an Nginx failure, verified Nagios CRITICAL detection and email notification, enforced the desired running state through Puppet, and confirmed successful service recovery through Nagios OK status and recovery email notifications.
+
 ---
 
 ## Philosophy
